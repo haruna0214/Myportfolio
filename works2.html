@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haruna-Portfolio</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+  <!-- header 始まり-->
+  <header>
+    <div class="nav-box wrapper">
+      <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+      <div class="pc-nav">
+        <nav>
+          <ul class="nav-lists">
+            <li class="nav-list">
+              <a class="uLine" href="about.html">
+                <span class="uLine-center">私について</span>
+              </a>
+            </li>
+            <li class="nav-list">
+              <a class="uLine" href="works.html">
+                <span class="uLine-center">制作実績</span>
+              </a>
+            </li>
+            <li class="nav-list">
+              <a class="uLine" href="about.html">
+                <span class="uLine-center">お問い合わせ</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- header 787px以下
+          ハンバーガーメニュー 開く-->
+      <div class="sp-icon">
+        <span class="material-icons" id="open">menu</span>
+      </div>
+  </header>
+
+  <!-- ハンバーガーメニュー 閉じる -->
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <!-- ハンバーガーメニュー 内容 -->
+    <nav class="sp-menu">
+      <ul class="sp-nav">
+        <li class="sp-nav-list">
+          <a class="uLine" href="#profile">
+            <span class="uLine-center">私について</span>
+          </a>
+        </li>
+        <li class="sp-nav-list">
+          <a class="uLine" href="">
+            <span class="uLine-center">制作実績</span>
+          </a>
+        </li>
+        <li class="sp-nav-list">
+          <a class="uLine" href="#profile">
+            <span class="uLine-center">お問い合わせ</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- </div> -->
+  <!-- header 終わり-->
+
+  <!-- main -->
+  <section class="works-web wrapper">
+    <h2 class="section-title">作品紹介</h2>
+    <div class="wrap">
+      <h3>【架空】旅行ブログサイト</h3>
+      <dl class="works-summary">
+        <dt class="works-heading">
+          <span class="material-symbols-outlined">done 概要</span>
+        </dt>
+        <dd class="works-text">
+          オンライン学習サービスでの制作課題として模写コーディングし、Wordpressで構築しました。
+        </dd>
+        <dt class="works-heading">
+          <span class="material-symbols-outlined">search 担当範囲/機能</span>
+        </dt>
+        <dd class="works-text">
+          コーディング(2カラム)・レスポンシブ対応
+        </dd>
+        <dt class="works-heading">
+          <span class="material-symbols-outlined">edit 使用言語</span>
+        </dt>
+        <dd class="works-text">HTML・SCSS</dd>
+        <dt class="works-heading">
+          <span class="material-symbols-outlined">volunteer_activism サイトの特徴</span>
+        </dt>
+        <dd class="works-text">レイアウトの基礎を学び、2カラムのレイアウトでコーディングをしました。<br>今後も、整理した情報を効果的に伝えられるよう、最適なレイアウト制作に努めます。</dd>
+        <dt class="works-heading">
+          <span class="material-symbols-outlined">computer</span>
+        </dt>
+        <dd class="works-text">
+          <a href="" target="_blank" rel="noopener">Webサイトへ</a>
+        </dd>
+      </dl>
+      <div class="btn">
+        <a href="#">PREV</a>
+        <a href="#">NEXT</a>
+      </div>
+      <img src="img/works02(pc).png" alt="Webサイト制作PC版">
+      <img src="img/works02(sp).png" alt="Webサイト制作SP版">
+    </div>
+    </section>
+    <!-- main -->
+
+    <!-- footer  -->
+    <footer>
+      <ul>
+        <li><a href="about.html">私について</a></li>
+        <li><a href="works.html">制作実績</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+      <p class="copyright">&copy;Portfolio Haruna Tanaka</p>
+    </footer>
+    <!-- footer  -->
+    <!-- 上に戻るボタン -->
+    <div class="page-top">
+      <a href="#">
+        <span class="material-symbols-outlined">arrow_circle_up</span>
+      </a>
+    </div>
+    <!-- 上に戻るボタン -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

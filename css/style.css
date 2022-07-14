@@ -1,0 +1,839 @@
+@charset "UTF-8";
+/** @format */
+/*
+Theme Name: ORIGINALSITE
+Description: ポートフォリオ制作のテーマです
+*/
+/*==============================================================
+# Topページ(index.html)
+==============================================================*/
+/* 共通 */
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", "sans-serif";
+  letter-spacing: 0.08em;
+  background-color: #fff;
+  color: #333;
+  font-weight: normal;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-title-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 3.6rem;
+  margin: 8rem 0;
+}
+
+h2 {
+  position: relative;
+  display: inline-block;
+}
+
+h2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -12px;
+  /*線の上下位置*/
+  display: inline-block;
+  width: 120px;
+  /*線の長さ*/
+  height: 5px;
+  /*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  /*位置調整*/
+  background-color: #775f55;
+  border-radius: 2px;
+}
+
+h3 {
+  font-size: 2.4rem;
+  margin-top: 4.8rem;
+}
+
+dt {
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+/* header */
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 50;
+}
+
+.nav-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  max-width: 1080px;
+}
+
+.logo img {
+  width: 160px;
+}
+
+.pc-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-lists .nav-list {
+  padding-left: 4rem;
+}
+
+.uLine {
+  text-decoration: none;
+}
+
+.uLine-center {
+  position: relative;
+}
+
+.uLine-center::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -0.3rem;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: #c7bdb9;
+  transition: all 0.5s;
+}
+
+.uLine:hover .uLine-center:after {
+  width: 100%;
+}
+
+.sp-icon {
+  opacity: 0;
+}
+
+.overlay {
+  opacity: 0;
+}
+
+/* section fv */
+.fv {
+  max-width: 1080px;
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+}
+
+.fv .fv-img img {
+  width: 100%;
+}
+
+/* section 私について */
+.aboutme {
+  margin-bottom: 12rem;
+}
+
+.aboutme-content {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme-left {
+  max-width: 480px;
+  padding: 2rem;
+  position: relative;
+  bottom: -4rem;
+  right: 0;
+}
+
+.aboutme-left p {
+  letter-spacing: 0.1em;
+  margin-bottom: 4rem;
+  line-height: 24px;
+}
+
+.name {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.btn a {
+  position: absolute;
+  color: #535d60;
+  border: solid #856f66;
+  background-color: #ffffff;
+  padding: 1rem 4rem;
+  width: 200px;
+  height: 40px;
+  border-radius: 0.4rem;
+}
+
+.btn a:hover {
+  background-color: #856f66;
+  color: #ffffff;
+}
+
+.aboutme-right img {
+  width: 300px;
+  height: 340px;
+}
+
+/* section 制作実績 */
+.works {
+  margin-bottom: 12rem;
+}
+
+.slick-slide {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.slider-list img {
+  position: relative;
+}
+
+.slider-list img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.slider-link {
+  position: relative;
+}
+
+.slider-link:hover .slider-hov {
+  opacity: 1;
+}
+
+.slider-hov {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(133, 111, 102, 0.7);
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5.6rem;
+}
+
+.slider-hov .works-menu-viewmore {
+  font-size: 2rem;
+}
+
+/* section できること */
+.service {
+  margin-bottom: 12rem;
+}
+
+.service-item {
+  display: flex;
+  margin-bottom: 6.4rem;
+  border-radius: 3.6rem;
+  padding: 4rem 2rem;
+  align-items: center;
+  box-shadow: 10px 10px 30px #d2d2d7;
+}
+
+.service-text {
+  padding-left: 4rem;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  width: 64%;
+}
+
+.service-text p {
+  margin: 4.8rem 0;
+}
+
+/* お問い合わせフォーム */
+.contact {
+  width: 100%;
+  background-color: #c7bdb9;
+  margin-bottom: 12rem;
+  max-width: none;
+  padding-bottom: 8rem;
+}
+
+.contact-text {
+  letter-spacing: 0.08em;
+  line-height: 32px;
+  padding-bottom: 4rem;
+}
+
+.contact-text span {
+  color: red;
+}
+
+.contact-contents {
+  padding: 6rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.form-item {
+  position: relative;
+  padding: 4rem 0;
+}
+
+.form-item span {
+  position: absolute;
+  color: red;
+  display: inline-block;
+}
+
+#category {
+  opacity: 0;
+  height: 0;
+}
+
+.selectBox {
+  height: 48px;
+  border-bottom: 1px solid #9e9e9e;
+  width: 100%;
+}
+
+input {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  border-bottom: 1px solid #9e9e9e;
+}
+
+textarea {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 160px;
+  overflow: auto;
+  border: 1px solid #9e9e9e;
+  border-radius: 0.4rem;
+}
+
+.form-btn {
+  width: 200px;
+  margin: 0 auto;
+  background-color: #856f66;
+  color: #ffffff;
+  padding: 0 4rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form-btn input {
+  border: none;
+  display: inline-block;
+}
+
+/* footer */
+footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+footer li {
+  padding: 0 4rem;
+  cursor: pointer;
+}
+
+/* トップへ戻る */
+.page-top {
+  position: fixed;
+  bottom: 30px;
+  right: 60px;
+  background-color: #775f55;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.page-top a {
+  position: relative;
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  text-decoration: none;
+}
+
+.page-top a .material-symbols-outlined {
+  font-size: 6rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+/*==============================================================
+# タブレット対応
+  レスポンシブ 787pxまでの設定
+==============================================================*/
+@media screen and (max-width: 787px) {
+  /* 共通 */
+  .section-title {
+    font-size: 2.4rem;
+    margin: 4rem 0;
+  }
+  h2::before {
+    width: 80px;
+  }
+  /* header */
+  .pc-nav {
+    display: none;
+  }
+  .sp-icon {
+    opacity: 1;
+    margin-left: auto;
+  }
+  /* マテリアルアイコン */
+  #open {
+    font-size: 4rem;
+  }
+  .overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+    margin-left: auto;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    text-align: left;
+    padding: 5rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+    z-index: 150;
+    width: 72%;
+  }
+  .sp-menu {
+    margin-top: 180px;
+  }
+  .sp-menu .sp-nav-list {
+    padding: 1rem;
+    line-height: 4;
+  }
+  #close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 4rem;
+    color: black;
+    cursor: pointer;
+  }
+  .page-top {
+    right: 20px;
+  }
+  .page-top a {
+    width: 4rem;
+    height: 4rem;
+  }
+  .page-top a .material-symbols-outlined {
+    font-size: 4rem;
+  }
+  /* footer */
+  footer li {
+    padding: 0 2rem;
+  }
+  /*=================
+# Sp index.html
+==================*/
+  /* fv */
+  .fv {
+    margin-bottom: 10rem;
+  }
+  /* aboutme */
+  .aboutme {
+    margin-bottom: 10rem;
+    background-color: #FAFAFA;
+    padding-bottom: 4rem;
+  }
+  .aboutme-content {
+    align-items: center;
+  }
+  .aboutme-left {
+    max-width: 66%;
+    bottom: 0;
+  }
+  .aboutme-left .name {
+    font-weight: 600;
+  }
+  .aboutme-left p {
+    letter-spacing: 0.08em;
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+  }
+  .aboutme-left .btn a {
+    top: -20px;
+    width: 150px;
+  }
+  .aboutme-right {
+    width: 150px;
+    position: relative;
+  }
+  .aboutme-right img {
+    position: absolute;
+    top: -40px;
+    object-fit: cover;
+    width: 150px;
+    height: auto;
+  }
+  /* 制作実績 */
+  .works {
+    margin-bottom: 10rem;
+  }
+  /* できること */
+  .service-item {
+    flex-direction: column;
+    padding: 4rem 2rem;
+  }
+  .service-img {
+    margin: 0 auto;
+  }
+  .service-img img {
+    width: 220px;
+    height: 160px;
+    background-color: rgba(199, 189, 185, 0.4);
+    border-radius: 20px;
+  }
+  .service-text {
+    padding-left: 0;
+    text-align: left;
+    letter-spacing: 0.08em;
+    line-height: 24px;
+    width: 100%;
+  }
+  .service-text h3 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .service-text p {
+    padding: 0 2rem;
+    margin: 3.2rem 0;
+  }
+  /* お問い合わせ */
+  .contact {
+    margin-bottom: 10rem;
+  }
+}
+
+/*=================
+    # #スマホ対応 about.html
+      レスポンシブ 480pxまでの設定
+    ==================*/
+@media screen and (max-width: 480px) {
+  .profile {
+    background-image: url("../img/about02(sp).png");
+    margin-bottom: 10rem;
+  }
+}
+
+/*==============================================================
+ここから 自己紹介ページ(about.html)
+==============================================================*/
+/* 私について */
+.profile {
+  width: 100%;
+  height: 0;
+  padding-top: 41.6666666%;
+  background-image: url("../img/about02.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1080px auto;
+  margin-bottom: 12rem;
+  margin-top: 10rem;
+}
+
+.titlePage-profile {
+  position: relative;
+}
+
+.titlePage-profile .section-title {
+  position: absolute;
+  top: -410px;
+  left: 50px;
+}
+
+.profile-text {
+  position: absolute;
+  top: 455px;
+  left: 100px;
+  width: 40%;
+}
+
+.profile-text p {
+  line-height: 24px;
+  letter-spacing: 0.1em;
+}
+
+.profile-img {
+  position: relative;
+}
+
+.profile-img img {
+  position: absolute;
+  top: -355px;
+  left: 525px;
+  width: 300px;
+  height: 315px;
+  border-radius: 130px 130px 0 0;
+}
+
+/* これまでの経歴 */
+.career {
+  margin-bottom: 12rem;
+}
+
+.career-flex {
+  display: flex;
+}
+
+.career-flex .Inner-left {
+  padding-top: 3.2rem;
+  width: 15%;
+}
+
+.career-flex .Inner-right {
+  width: 90%;
+  border-left: 2px solid #ddd;
+  padding-left: 8%;
+  padding-top: 3.5rem;
+  letter-spacing: 0.08em;
+  line-height: 24px;
+  position: relative;
+}
+
+.career-flex .Inner-right::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #856F66;
+  position: absolute;
+  top: 35px;
+  left: -8px;
+}
+
+/* 制作への思い */
+.heart {
+  height: 700px;
+  background-image: url("../img/about01.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: 12rem;
+  position: relative;
+}
+
+.titlePage-heart {
+  position: relative;
+}
+
+.titlePage-heart .section-title {
+  position: absolute;
+  top: 220px;
+  left: 395px;
+  z-index: 50;
+}
+
+.designframe {
+  background-color: #fff;
+  border: 1px solid #775F55;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 4rem;
+  width: 500px;
+  height: 330px;
+  position: absolute;
+  top: 260px;
+  left: 290px;
+}
+
+.designframe p {
+  position: absolute;
+  top: 130px;
+  left: 55px;
+  width: 82%;
+  font-size: 2.4rem;
+  letter-spacing: 0.08em;
+}
+
+/*==============================================================
+ここから 実績一覧ページ(works.html)
+==============================================================*/
+.works-lists {
+  margin-bottom: 12rem;
+}
+
+.works-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-flex .left {
+  width: 44%;
+}
+
+.works-flex .right {
+  width: 44%;
+  padding-top: 12rem;
+}
+
+.works-item {
+  margin-bottom: 20rem;
+  padding: .8rem;
+  box-shadow: 10px 10px 10px 10px #d2d2d7;
+}
+
+.works-text dl {
+  margin: 4%;
+  line-height: 24px;
+  position: relative;
+}
+
+.works-text dl dt {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.works-text dl dt::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 20px;
+  background-color: rgba(30, 124, 210, 0.8);
+  position: absolute;
+  top: 2px;
+  left: -12px;
+}
+
+.works-text dl dd {
+  padding-top: 1rem;
+}
+
+.works_box {
+  position: relative;
+  overflow: hidden;
+}
+
+figcaption.hover-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(238, 236, 229, 0.7);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  padding: 3rem;
+  font-size: 2rem;
+  color: #856F66;
+  letter-spacing: 0.1em;
+}
+
+figcaption.hover-mask:hover {
+  opacity: 1;
+  transition: all 0.6s ease;
+}
+
+/*==============================================================
+ここから 実績ごとのページ(works1.html)
+==============================================================*/
+dl.works-summary {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+  font-size: 1.6rem;
+}
+
+dt.works-heading {
+  display: block;
+  width: 32%;
+  margin-bottom: 3rem;
+}
+
+dt.works-heading .material-symbols-outlined {
+  font-size: 1.6rem;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+dd.works-text {
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
+.works-web h3 {
+  text-align: left;
+  margin: 8rem 0;
+}
