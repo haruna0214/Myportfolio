@@ -746,7 +746,6 @@ footer {
 .works-flex {
   display: flex;
   justify-content: space-between;
-  // margin-top: 8rem;
   .left {
     width: 44%;
   }
@@ -814,8 +813,11 @@ figcaption.hover-mask {
   }
 }
 /*==============================================================
-ここから 実績ごとのページ(works1.html)
+ここから 実績ごとのページ(works1.htmlからworks5.htmlまで)
 ==============================================================*/
+.works-web {
+  margin-bottom: 12rem;
+}
 dl.works-summary {
   display: flex;
   flex-wrap: wrap;
@@ -860,4 +862,11 @@ dd.works-text {
     background-color: #856f66;
     color: #ffffff;
   }
+}
+
+.PC-left {
+    width: 65%;
+}
+.SP-right {
+  width: 30%;
 }

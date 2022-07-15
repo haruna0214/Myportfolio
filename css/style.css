@@ -807,8 +807,12 @@ figcaption.hover-mask:hover {
 }
 
 /*==============================================================
-ここから 実績ごとのページ(works1.html)
+ここから 実績ごとのページ(works1.htmlからworks5.htmlまで)
 ==============================================================*/
+.works-web {
+  margin-bottom: 12rem;
+}
+
 dl.works-summary {
   display: flex;
   flex-wrap: wrap;
@@ -859,4 +863,12 @@ dd.works-text {
 .item-btn:hover {
   background-color: #856f66;
   color: #ffffff;
+}
+
+.PC-left {
+  width: 65%;
+}
+
+.SP-right {
+  width: 30%;
 }
