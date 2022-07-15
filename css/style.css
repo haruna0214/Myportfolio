@@ -818,7 +818,7 @@ dl.works-summary {
 
 dt.works-heading {
   display: block;
-  width: 32%;
+  width: 24%;
   margin-bottom: 3rem;
 }
 
@@ -829,7 +829,7 @@ dt.works-heading .material-symbols-outlined {
 }
 
 dd.works-text {
-  width: 60%;
+  width: 75%;
   margin-bottom: 3rem;
 }
 
