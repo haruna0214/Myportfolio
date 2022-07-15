@@ -812,7 +812,7 @@ figcaption.hover-mask:hover {
 dl.works-summary {
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem 0;
+  margin: 4rem 2rem;
   font-size: 1.6rem;
 }
 
@@ -836,4 +836,27 @@ dd.works-text {
 .works-web h3 {
   text-align: left;
   margin: 8rem 0;
+}
+
+.works-btn {
+  margin: 4rem auto 12rem;
+  width: 400px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  justify-content: center;
+}
+
+.item-btn {
+  padding: 1rem 4rem;
+  border-radius: 0.4rem;
+  margin: 0 4rem;
+  color: #535d60;
+  border: solid #856f66;
+  background-color: #ffffff;
+}
+
+.item-btn:hover {
+  background-color: #856f66;
+  color: #ffffff;
 }
