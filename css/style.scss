@@ -818,6 +818,12 @@ figcaption.hover-mask {
 .works-web {
   margin-bottom: 12rem;
 }
+.worksPage-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 720px;
+}
+
 dl.works-summary {
   display: flex;
   flex-wrap: wrap;
