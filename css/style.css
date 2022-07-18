@@ -55,7 +55,6 @@ h2 {
   position: relative;
   display: inline-block;
 }
-
 h2:before {
   content: "";
   position: absolute;
@@ -67,7 +66,6 @@ h2:before {
   /*線の長さ*/
   height: 5px;
   /*線の太さ*/
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   /*位置調整*/
   background-color: #775f55;
@@ -116,7 +114,6 @@ header {
   display: flex;
   justify-content: center;
 }
-
 .nav-lists .nav-list {
   padding-left: 4rem;
 }
@@ -128,9 +125,8 @@ header {
 .uLine-center {
   position: relative;
 }
-
 .uLine-center::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: -0.3rem;
@@ -159,7 +155,6 @@ header {
   margin-top: 10rem;
   margin-bottom: 12rem;
 }
-
 .fv .fv-img img {
   width: 100%;
 }
@@ -181,7 +176,6 @@ header {
   bottom: -4rem;
   right: 0;
 }
-
 .aboutme-left p {
   letter-spacing: 0.1em;
   margin-bottom: 4rem;
@@ -198,7 +192,6 @@ header {
   position: relative;
   text-align: center;
 }
-
 .btn a {
   position: absolute;
   color: #535d60;
@@ -209,7 +202,6 @@ header {
   height: 40px;
   border-radius: 0.4rem;
 }
-
 .btn a:hover {
   background-color: #856f66;
   color: #ffffff;
@@ -227,13 +219,13 @@ header {
 
 .slick-slide {
   max-height: 600px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .slider-list img {
   position: relative;
 }
-
 .slider-list img::before {
   content: "";
   position: absolute;
@@ -252,7 +244,6 @@ header {
 .slider-link {
   position: relative;
 }
-
 .slider-link:hover .slider-hov {
   opacity: 1;
 }
@@ -274,7 +265,6 @@ header {
   justify-content: center;
   font-size: 5.6rem;
 }
-
 .slider-hov .works-menu-viewmore {
   font-size: 2rem;
 }
@@ -299,7 +289,6 @@ header {
   line-height: 24px;
   width: 64%;
 }
-
 .service-text p {
   margin: 4.8rem 0;
 }
@@ -318,7 +307,6 @@ header {
   line-height: 32px;
   padding-bottom: 4rem;
 }
-
 .contact-text span {
   color: red;
 }
@@ -334,7 +322,6 @@ header {
   position: relative;
   padding: 4rem 0;
 }
-
 .form-item span {
   position: absolute;
   color: red;
@@ -378,7 +365,6 @@ textarea {
   text-align: center;
   cursor: pointer;
 }
-
 .form-btn input {
   border: none;
   display: inline-block;
@@ -390,13 +376,11 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
-
 footer ul {
   display: flex;
   justify-content: center;
   margin-bottom: 4rem;
 }
-
 footer li {
   padding: 0 4rem;
   cursor: pointer;
@@ -411,7 +395,6 @@ footer li {
   border-radius: 50%;
   transition: all 0.3s;
 }
-
 .page-top a {
   position: relative;
   display: block;
@@ -419,7 +402,6 @@ footer li {
   height: 6rem;
   text-decoration: none;
 }
-
 .page-top a .material-symbols-outlined {
   font-size: 6rem;
   font-weight: 300;
@@ -501,8 +483,8 @@ footer li {
     padding: 0 2rem;
   }
   /*=================
-# Sp index.html
-==================*/
+  # Sp index.html
+  ==================*/
   /* fv */
   .fv {
     margin-bottom: 10rem;
@@ -539,7 +521,8 @@ footer li {
   .aboutme-right img {
     position: absolute;
     top: -40px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 150px;
     height: auto;
   }
@@ -581,18 +564,16 @@ footer li {
     margin-bottom: 10rem;
   }
 }
-
 /*=================
-    # #スマホ対応 about.html
-      レスポンシブ 480pxまでの設定
-    ==================*/
+# #スマホ対応 about.html
+  レスポンシブ 480pxまでの設定
+==================*/
 @media screen and (max-width: 480px) {
   .profile {
     background-image: url("../img/about02(sp).png");
     margin-bottom: 10rem;
   }
 }
-
 /*==============================================================
 ここから 自己紹介ページ(about.html)
 ==============================================================*/
@@ -612,7 +593,6 @@ footer li {
 .titlePage-profile {
   position: relative;
 }
-
 .titlePage-profile .section-title {
   position: absolute;
   top: -410px;
@@ -625,7 +605,6 @@ footer li {
   left: 100px;
   width: 40%;
 }
-
 .profile-text p {
   line-height: 24px;
   letter-spacing: 0.1em;
@@ -634,7 +613,6 @@ footer li {
 .profile-img {
   position: relative;
 }
-
 .profile-img img {
   position: absolute;
   top: -355px;
@@ -652,12 +630,10 @@ footer li {
 .career-flex {
   display: flex;
 }
-
 .career-flex .Inner-left {
   padding-top: 3.2rem;
   width: 15%;
 }
-
 .career-flex .Inner-right {
   width: 90%;
   border-left: 2px solid #ddd;
@@ -667,9 +643,8 @@ footer li {
   line-height: 24px;
   position: relative;
 }
-
 .career-flex .Inner-right::before {
-  content: '';
+  content: "";
   display: block;
   width: 15px;
   height: 15px;
@@ -693,7 +668,6 @@ footer li {
 .titlePage-heart {
   position: relative;
 }
-
 .titlePage-heart .section-title {
   position: absolute;
   top: 220px;
@@ -713,7 +687,6 @@ footer li {
   top: 260px;
   left: 290px;
 }
-
 .designframe p {
   position: absolute;
   top: 130px;
@@ -734,11 +707,9 @@ footer li {
   display: flex;
   justify-content: space-between;
 }
-
 .works-flex .left {
   width: 44%;
 }
-
 .works-flex .right {
   width: 44%;
   padding-top: 12rem;
@@ -746,7 +717,7 @@ footer li {
 
 .works-item {
   margin-bottom: 20rem;
-  padding: .8rem;
+  padding: 0.8rem;
   box-shadow: 10px 10px 10px 10px #d2d2d7;
 }
 
@@ -755,12 +726,10 @@ footer li {
   line-height: 24px;
   position: relative;
 }
-
 .works-text dl dt {
   font-size: 1.8rem;
   font-weight: bold;
 }
-
 .works-text dl dt::before {
   content: "";
   display: inline-block;
@@ -771,7 +740,6 @@ footer li {
   top: 2px;
   left: -12px;
 }
-
 .works-text dl dd {
   padding-top: 1rem;
 }
@@ -800,7 +768,6 @@ figcaption.hover-mask {
   color: #856F66;
   letter-spacing: 0.1em;
 }
-
 figcaption.hover-mask:hover {
   opacity: 1;
   transition: all 0.6s ease;
@@ -825,7 +792,6 @@ dt.works-heading {
   width: 24%;
   margin-bottom: 3rem;
 }
-
 dt.works-heading .material-symbols-outlined {
   font-size: 1.6rem;
   display: inline-flex;
@@ -845,7 +811,6 @@ dd.works-text {
 .works-btn {
   margin: 4rem auto 12rem;
   width: 400px;
-  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: flex;
   justify-content: center;
@@ -859,7 +824,6 @@ dd.works-text {
   border: solid #856f66;
   background-color: #ffffff;
 }
-
 .item-btn:hover {
   background-color: #856f66;
   color: #ffffff;
@@ -871,4 +835,4 @@ dd.works-text {
 
 .SP-right {
   width: 30%;
-}
+}/*# sourceMappingURL=style.css.map */
