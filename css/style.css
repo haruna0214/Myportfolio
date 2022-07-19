@@ -27,7 +27,7 @@ body {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 40px;
 }
 
 a {
@@ -47,8 +47,8 @@ img {
 }
 
 .section-title {
-  font-size: 3.6rem;
-  margin: 8rem 0;
+  font-size: 36px;
+  margin: 80px 0;
 }
 
 h2 {
@@ -76,7 +76,7 @@ h2:before {
 
 h3 {
   font-size: 2.4rem;
-  margin-top: 4.8rem;
+  margin-top: 48px;
 }
 
 dt {
@@ -118,7 +118,7 @@ header {
 }
 
 .nav-lists .nav-list {
-  padding-left: 4rem;
+  padding-left: 40px;
 }
 
 .uLine {
@@ -156,8 +156,8 @@ header {
 /* section fv */
 .fv {
   max-width: 1080px;
-  margin-top: 10rem;
-  margin-bottom: 12rem;
+  margin-top: 100px;
+  margin-bottom: 120px;
 }
 
 .fv .fv-img img {
@@ -166,7 +166,7 @@ header {
 
 /* section 私について */
 .aboutme {
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
 }
 
 .aboutme-content {
@@ -176,7 +176,7 @@ header {
 
 .aboutme-left {
   max-width: 480px;
-  padding: 2rem;
+  padding: 20px;
   position: relative;
   bottom: -4rem;
   right: 0;
@@ -184,13 +184,13 @@ header {
 
 .aboutme-left p {
   letter-spacing: 0.1em;
-  margin-bottom: 4rem;
+  margin-bottom: 40px;
   line-height: 24px;
 }
 
 .name {
   font-size: 2.4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 40px;
 }
 
 .btn {
@@ -204,7 +204,7 @@ header {
   color: #535d60;
   border: solid #856f66;
   background-color: #ffffff;
-  padding: 1rem 4rem;
+  padding: 10px 40px;
   width: 200px;
   height: 40px;
   border-radius: 0.4rem;
@@ -222,7 +222,7 @@ header {
 
 /* section 制作実績 */
 .works {
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
 }
 
 .slick-slide {
@@ -281,42 +281,42 @@ header {
 
 /* section できること */
 .service {
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
 }
 
 .service-item {
   display: flex;
-  margin-bottom: 6.4rem;
+  margin-bottom: 64px;
   border-radius: 3.6rem;
-  padding: 4rem 2rem;
+  padding: 40px 20px;
   align-items: center;
   box-shadow: 10px 10px 30px #d2d2d7;
 }
 
 .service-text {
-  padding-left: 4rem;
+  padding-left: 40px;
   letter-spacing: 0.1em;
   line-height: 24px;
   width: 64%;
 }
 
 .service-text p {
-  margin: 4.8rem 0;
+  margin: 48px 0;
 }
 
 /* お問い合わせフォーム */
 .contact {
   width: 100%;
   background-color: #c7bdb9;
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
   max-width: none;
-  padding-bottom: 8rem;
+  padding-bottom: 80px;
 }
 
 .contact-text {
   letter-spacing: 0.08em;
   line-height: 32px;
-  padding-bottom: 4rem;
+  padding-bottom: 40px;
 }
 
 .contact-text span {
@@ -324,7 +324,7 @@ header {
 }
 
 .contact-contents {
-  padding: 6rem;
+  padding: 60px;
   max-width: 1000px;
   margin: 0 auto;
   background-color: #fff;
@@ -332,7 +332,7 @@ header {
 
 .form-item {
   position: relative;
-  padding: 4rem 0;
+  padding: 40px 0;
 }
 
 .form-item span {
@@ -360,7 +360,7 @@ input {
 }
 
 textarea {
-  margin-top: 0.4rem;
+  margin-top: 4px;
   width: 100%;
   height: 160px;
   overflow: auto;
@@ -373,7 +373,7 @@ textarea {
   margin: 0 auto;
   background-color: #856f66;
   color: #ffffff;
-  padding: 0 4rem;
+  padding: 4px;
   border-radius: 0.4rem;
   text-align: center;
   cursor: pointer;
@@ -394,11 +394,11 @@ footer {
 footer ul {
   display: flex;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 40px;
 }
 
 footer li {
-  padding: 0 4rem;
+  padding: 0 40px;
   cursor: pointer;
 }
 
@@ -434,7 +434,7 @@ footer li {
   /* 共通 */
   .section-title {
     font-size: 2.4rem;
-    margin: 4rem 0;
+    margin: 40px 0;
   }
   h2::before {
     width: 80px;
@@ -464,7 +464,7 @@ footer li {
     right: 0;
     background: #fff;
     text-align: left;
-    padding: 5rem;
+    padding: 50px;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.6s;
@@ -475,7 +475,7 @@ footer li {
     margin-top: 180px;
   }
   .sp-menu .sp-nav-list {
-    padding: 1rem;
+    padding: 10px;
     line-height: 4;
   }
   #close {
@@ -498,20 +498,20 @@ footer li {
   }
   /* footer */
   footer li {
-    padding: 0 2rem;
+    padding: 0 20px;
   }
   /*=================
 # Sp index.html
 ==================*/
   /* fv */
   .fv {
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
   }
   /* aboutme */
   .aboutme {
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
     background-color: #FAFAFA;
-    padding-bottom: 4rem;
+    padding-bottom: 40px;
   }
   .aboutme-content {
     align-items: center;
@@ -525,7 +525,7 @@ footer li {
   }
   .aboutme-left p {
     letter-spacing: 0.08em;
-    margin-bottom: 2.4rem;
+    margin-bottom: 24px;
     font-size: 1.6rem;
   }
   .aboutme-left .btn a {
@@ -545,12 +545,12 @@ footer li {
   }
   /* 制作実績 */
   .works {
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
   }
   /* できること */
   .service-item {
     flex-direction: column;
-    padding: 4rem 2rem;
+    padding: 40px 20px;
   }
   .service-img {
     margin: 0 auto;
@@ -570,15 +570,15 @@ footer li {
   }
   .service-text h3 {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 20px;
   }
   .service-text p {
-    padding: 0 2rem;
-    margin: 3.2rem 0;
+    padding: 0 20px;
+    margin: 32px 0;
   }
   /* お問い合わせ */
   .contact {
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
   }
 }
 
@@ -589,7 +589,7 @@ footer li {
 @media screen and (max-width: 480px) {
   .profile {
     background-image: url("../img/about02(sp).png");
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
   }
 }
 
@@ -599,10 +599,9 @@ footer li {
 /* 私について */
 .profile {
   width: 100%;
-  margin-bottom: 12rem;
-  margin-top: 10rem;
+  margin-bottom: 120px;
   background-color: #F1F0EA;
-  padding: 80px 0;
+  padding: 100px 0 0;
 }
 
 .profile-flex {
@@ -611,7 +610,7 @@ footer li {
   gap: 40px;
   max-width: 1080px;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 40px;
 }
 
 .profile-left {
@@ -630,7 +629,7 @@ footer li {
 
 /* これまでの経歴 */
 .career {
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
 }
 
 .career-flex {
@@ -638,7 +637,7 @@ footer li {
 }
 
 .career-flex .Inner-left {
-  padding-top: 3.2rem;
+  padding-top: 32px;
   width: 15%;
 }
 
@@ -646,7 +645,7 @@ footer li {
   width: 90%;
   border-left: 2px solid #ddd;
   padding-left: 8%;
-  padding-top: 3.5rem;
+  padding-top: 35px;
   letter-spacing: 0.08em;
   line-height: 24px;
   position: relative;
@@ -670,7 +669,7 @@ footer li {
   background-image: url("../img/about01.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
   position: relative;
 }
 
@@ -690,7 +689,7 @@ footer li {
   border: 1px solid #775F55;
   display: inline-block;
   border-radius: 5px;
-  padding: 4rem;
+  padding: 40px;
   width: 500px;
   height: 330px;
   position: absolute;
@@ -710,27 +709,32 @@ footer li {
 /*==============================================================
 ここから 実績一覧ページ(works.html)
 ==============================================================*/
-.works-lists {
-  margin-bottom: 12rem;
+.works {
+  width: 100%;
 }
 
-.works-flex {
+.work-flex {
+  padding: 0 40px;
+}
+
+.works-items {
   display: flex;
   justify-content: space-between;
+  padding: 0 80px;
 }
 
-.works-flex .left {
+.works-items .left {
   width: 44%;
 }
 
-.works-flex .right {
+.works-items .right {
   width: 44%;
-  padding-top: 12rem;
+  padding-top: 120px;
 }
 
 .works-item {
-  margin-bottom: 20rem;
-  padding: .8rem;
+  margin-bottom: 200px;
+  padding: 8px;
   box-shadow: 10px 10px 10px 10px #d2d2d7;
 }
 
@@ -757,12 +761,16 @@ footer li {
 }
 
 .works-text dl dd {
-  padding-top: 1rem;
+  padding-top: 10px;
 }
 
 .works_box {
   position: relative;
   overflow: hidden;
+}
+
+figure img {
+  width: 100%;
 }
 
 figcaption.hover-mask {
@@ -779,7 +787,7 @@ figcaption.hover-mask {
   justify-content: center;
   align-items: center;
   /* text-align: center; */
-  padding: 3rem;
+  padding: 30px;
   font-size: 2rem;
   color: #856F66;
   letter-spacing: 0.1em;
@@ -794,7 +802,7 @@ figcaption.hover-mask:hover {
 ここから 実績ごとのページ(works1.htmlからworks5.htmlまで)
 ==============================================================*/
 .works-web {
-  margin-bottom: 12rem;
+  margin-bottom: 120px;
 }
 
 .worksPage-image {
@@ -806,14 +814,14 @@ figcaption.hover-mask:hover {
 dl.works-summary {
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem 2rem;
+  margin: 40px 20px;
   font-size: 1.6rem;
 }
 
 dt.works-heading {
   display: block;
   width: 24%;
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 
 dt.works-heading .material-symbols-outlined {
@@ -824,16 +832,16 @@ dt.works-heading .material-symbols-outlined {
 
 dd.works-text {
   width: 75%;
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 
 .works-web h3 {
   text-align: left;
-  margin: 8rem 0;
+  margin: 80px 0;
 }
 
 .works-btn {
-  margin: 4rem auto 12rem;
+  margin: 40px auto 120px;
   width: 400px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -842,9 +850,9 @@ dd.works-text {
 }
 
 .item-btn {
-  padding: 1rem 4rem;
+  padding: 10px 40px;
   border-radius: 0.4rem;
-  margin: 0 4rem;
+  margin: 0 40px;
   color: #535d60;
   border: solid #856f66;
   background-color: #ffffff;
