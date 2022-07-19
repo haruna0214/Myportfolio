@@ -631,6 +631,7 @@ footer li {
 /* これまでの経歴 */
 .career {
   margin-bottom: 120px;
+  padding-bottom: 100px;
 }
 
 .career-flex {
@@ -639,16 +640,16 @@ footer li {
   padding: 0 40px;
 }
 
-.career-items {
+.career-item {
   display: flex;
 }
 
-.career-items .Inner-left {
+.career-item .Inner-left {
   padding-top: 32px;
   width: 15%;
 }
 
-.career-items .Inner-right {
+.career-item .Inner-right {
   width: 90%;
   border-left: 2px solid #ddd;
   padding-left: 8%;
@@ -658,7 +659,7 @@ footer li {
   position: relative;
 }
 
-.career-items .Inner-right::before {
+.career-item .Inner-right::before {
   content: '';
   display: block;
   width: 15px;
@@ -672,45 +673,14 @@ footer li {
 
 /* 制作への思い */
 .heart {
-  height: 700px;
-  background-image: url("../img/about01.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   margin-bottom: 120px;
-  position: relative;
+  padding-bottom: 100px;
 }
 
-.titlePage-heart {
-  position: relative;
-}
-
-.titlePage-heart .section-title {
-  position: absolute;
-  top: 220px;
-  left: 395px;
-  z-index: 50;
-}
-
-.designframe {
-  background-color: #fff;
-  border: 1px solid #775F55;
-  display: inline-block;
-  border-radius: 5px;
-  padding: 40px;
-  width: 500px;
-  height: 330px;
-  position: absolute;
-  top: 260px;
-  left: 290px;
-}
-
-.designframe p {
-  position: absolute;
-  top: 130px;
-  left: 55px;
-  width: 82%;
-  font-size: 2.4rem;
-  letter-spacing: 0.08em;
+.heart-flex {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 /*==============================================================
