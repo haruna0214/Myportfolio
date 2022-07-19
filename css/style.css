@@ -634,15 +634,21 @@ footer li {
 }
 
 .career-flex {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.career-items {
   display: flex;
 }
 
-.career-flex .Inner-left {
+.career-items .Inner-left {
   padding-top: 32px;
   width: 15%;
 }
 
-.career-flex .Inner-right {
+.career-items .Inner-right {
   width: 90%;
   border-left: 2px solid #ddd;
   padding-left: 8%;
@@ -652,7 +658,7 @@ footer li {
   position: relative;
 }
 
-.career-flex .Inner-right::before {
+.career-items .Inner-right::before {
   content: '';
   display: block;
   width: 15px;

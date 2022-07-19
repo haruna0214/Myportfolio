@@ -657,10 +657,14 @@ footer {
   .career {
     margin-bottom: 120px;
   }
-
   .career-flex {
-    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
 
+  .career-items {
+    display: flex;
     .Inner-left {
       padding-top: 32px;
       width: 15%;
@@ -683,8 +687,8 @@ footer {
         position: absolute;
         top: 35px;
         left: -8px;
+      }
     }
-  }
   }
 
 
