@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/** @format */
+@use "_header.scss";
+@use "_top.scss";
+@use "_footer.scss";
+@use "_about.scss";
+@use "_works.scss";
+/*
+Theme Name: ORIGINALSITE
+Description: ポートフォリオ制作のテーマです
+*/
+/*==============================================================
+# タブレット対応
+  レスポンシブ 787pxまでの設定
+==============================================================*/
+@media screen and (max-width: 787px) {
+  /* 共通 */
+  .section-title {
+    font-size: 2.4rem;
+    margin: 40px 0;
+  }
+  h2::before {
+    width: 80px;
+  }
+  /* header */
+  .pc-nav {
+    display: none;
+  }
+  .sp-icon {
+    opacity: 1;
+    margin-left: auto;
+  }
+  /* マテリアルアイコン */
+  #open {
+    font-size: 4rem;
+  }
+  .overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+    margin-left: auto;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    text-align: left;
+    padding: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+    z-index: 150;
+    width: 72%;
+  }
+  .sp-menu {
+    margin-top: 180px;
+  }
+  .sp-menu .sp-nav-list {
+    padding: 10px;
+    line-height: 4;
+  }
+  #close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 4rem;
+    color: black;
+    cursor: pointer;
+  }
+  .page-top {
+    right: 20px;
+  }
+  .page-top a {
+    width: 4rem;
+    height: 4rem;
+  }
+  .page-top a .material-symbols-outlined {
+    font-size: 4rem;
+  }
+  /* footer */
+  footer li {
+    padding: 0 20px;
+  }
+  /*=================
+# Sp index.html
+==================*/
+  /* fv */
+  .fv {
+    margin-bottom: 100px;
+  }
+  /* aboutme */
+  .aboutme {
+    margin-bottom: 100px;
+    background-color: #FAFAFA;
+    padding-bottom: 40px;
+  }
+  .aboutme-content {
+    align-items: center;
+  }
+  .aboutme-left {
+    max-width: 66%;
+    bottom: 0;
+  }
+  .aboutme-left .name {
+    font-weight: 600;
+  }
+  .aboutme-left p {
+    letter-spacing: 0.08em;
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+  }
+  .aboutme-left .btn a {
+    top: -20px;
+    width: 150px;
+  }
+  .aboutme-right {
+    width: 150px;
+    position: relative;
+  }
+  .aboutme-right img {
+    position: absolute;
+    top: -40px;
+    object-fit: cover;
+    width: 150px;
+    height: auto;
+  }
+  /* 制作実績 */
+  .works {
+    margin-bottom: 100px;
+  }
+  /* できること */
+  .service-item {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .service-img {
+    margin: 0 auto;
+  }
+  .service-img img {
+    width: 220px;
+    height: 160px;
+    background-color: rgba(199, 189, 185, 0.4);
+    border-radius: 20px;
+  }
+  .service-text {
+    padding-left: 0;
+    text-align: left;
+    letter-spacing: 0.08em;
+    line-height: 24px;
+    width: 100%;
+  }
+  .service-text h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .service-text p {
+    padding: 0 20px;
+    margin: 32px 0;
+  }
+  /* お問い合わせ */
+  .contact {
+    margin-bottom: 100px;
+  }
+}
+
+/*==============================================================
+  #スマホ対応 about.html
+  レスポンシブ 480pxまでの設定
+==============================================================*/
+@media screen and (max-width: 480px) {
+  .profile {
+    background-image: url("../img/about02(sp).png");
+    margin-bottom: 100px;
+  }
+}

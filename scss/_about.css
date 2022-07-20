@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*==============================================================
+自己紹介ページ(about.html)
+==============================================================*/
+/* 私について */
+.profile {
+  width: 100%;
+  margin-bottom: 120px;
+  background-color: #F1F0EA;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.profile-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-left .titlePage-profile .section-title {
+  margin-top: 0;
+}
+
+.profile-text p {
+  line-height: 24px;
+  letter-spacing: 0.1em;
+}
+
+/* これまでの経歴 */
+.career {
+  margin-bottom: 120px;
+}
+
+.career-flex {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.career-item {
+  display: flex;
+}
+
+.career-item .Inner-left {
+  padding-top: 32px;
+  width: 15%;
+}
+
+.career-item .Inner-right {
+  width: 90%;
+  border-left: 2px solid #ddd;
+  padding-left: 8%;
+  padding-top: 35px;
+  letter-spacing: 0.08em;
+  line-height: 24px;
+  position: relative;
+}
+
+.career-item .Inner-right::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #856F66;
+  position: absolute;
+  top: 35px;
+  left: -8px;
+}
+
+/* 制作への思い */
+.heart {
+  margin-bottom: 120px;
+}
+
+.heart-flex {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.heart-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.heart-item .heart-img {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.heart-item .heart-text {
+  width: 72%;
+  margin: 0 auto;
+  line-height: 24px;
+}
