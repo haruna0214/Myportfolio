@@ -631,7 +631,6 @@ footer li {
 /* これまでの経歴 */
 .career {
   margin-bottom: 120px;
-  padding-bottom: 100px;
 }
 
 .career-flex {
@@ -674,13 +673,28 @@ footer li {
 /* 制作への思い */
 .heart {
   margin-bottom: 120px;
-  padding-bottom: 100px;
 }
 
 .heart-flex {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 40px;
+}
+
+.heart-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.heart-item .heart-img {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.heart-item .heart-text {
+  width: 72%;
+  margin: 0 auto;
+  line-height: 24px;
 }
 
 /*==============================================================
