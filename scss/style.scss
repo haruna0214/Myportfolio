@@ -126,17 +126,19 @@ Description: ポートフォリオ制作のテーマです
       //   width: 150px;
       // }
     }
-    .aboutme-right {
-      width: 150px;
-      position: relative;
-      img {
-          position: absolute;
-          top: -40px;
-          object-fit: cover;
-          width: 150px;
-          height: auto;
-        }
-    }
+    // .aboutme-right {
+    //   width: 150px;
+    //   position: relative;
+    //   img {
+    //       position: absolute;
+    //       top: -40px;
+    //       object-fit: cover;
+    //       width: 150px;
+    //       height: auto;
+    //     }
+    // }
+
+    
 /* 制作実績 */
     .works {
       margin-bottom: 100px;
