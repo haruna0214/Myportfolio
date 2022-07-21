@@ -35,14 +35,7 @@
 
 .name {
   font-size: 2.4rem;
-  margin-bottom: 40px;
 }
-
-
-  // display: inline-block;
-  // position: relative;
-  // text-align: left;
-  // padding: 0;
 
   .btn a {
     // position: absolute;
@@ -61,10 +54,10 @@
   }
 
 .aboutme-right {
-  img {
-    width: 300px;
-    height: 340px;
-  }
+    img {
+      width: 300px;
+      height: 340px;
+    }
 }
 
 /* section 制作実績 */
@@ -180,13 +173,15 @@
 
   .name {
     font-weight: 600;
-    margin-bottom: 20px;
   }
 
   .remarks {
     letter-spacing: 0.05em;
     // margin-bottom: 24px;
     font-size: 1.6rem;
+  }
+  .aboutme-right {
+    text-align: center;
   }
 
   /* 制作実績 */

@@ -177,9 +177,6 @@ header {
 .aboutme-left {
   max-width: 480px;
   padding: 20px;
-  position: relative;
-  bottom: -4rem;
-  right: 0;
 }
 
 .aboutme-left p {
@@ -193,14 +190,8 @@ header {
   margin-bottom: 40px;
 }
 
-.btn {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-}
-
 .btn a {
-  position: absolute;
+  /* position: absolute; */
   color: #535d60;
   border: solid #856f66;
   background-color: #ffffff;
@@ -525,7 +516,7 @@ footer li {
 
   .name {
     font-weight: 600;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .remarks {
