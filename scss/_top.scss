@@ -25,9 +25,6 @@
 .aboutme-left {
   max-width: 480px;
   padding: 20px;
-  position: relative;
-  bottom: -4rem;
-  right: 0;
 
   p {
     letter-spacing: 0.1em;
@@ -41,18 +38,19 @@
   margin-bottom: 40px;
 }
 
-.btn {
-  display: inline-block;
-  position: relative;
-  text-align: center;
 
-  a {
-    position: absolute;
+  // display: inline-block;
+  // position: relative;
+  // text-align: left;
+  // padding: 0;
+
+  .btn a {
+    // position: absolute;
     color: #535d60;
     border: solid #856f66;
     background-color: #ffffff;
     padding: 10px 40px;
-    width: 200px;
+    width: 135px;
     height: 40px;
     border-radius: 0.4rem;
 
@@ -61,7 +59,6 @@
       color: #ffffff;
     }
   }
-}
 
 .aboutme-right {
   img {
