@@ -507,41 +507,30 @@ footer li {
   .fv {
     margin-bottom: 100px;
   }
+
   /* aboutme */
   .aboutme {
     margin-bottom: 100px;
     background-color: #FAFAFA;
     padding-bottom: 40px;
   }
+
   .aboutme-content {
-    align-items: center;
+    flex-direction: column-reverse;
   }
+
   .aboutme-left {
-    max-width: 66%;
-    bottom: 0;
+    margin: 0 auto;
   }
-  .aboutme-left .name {
+
+  .name {
     font-weight: 600;
+    margin-bottom: 20px;
   }
-  .aboutme-left p {
-    letter-spacing: 0.08em;
-    margin-bottom: 24px;
+
+  .remarks {
+    letter-spacing: 0.05em;
     font-size: 1.6rem;
-  }
-  .aboutme-left .btn a {
-    top: -20px;
-    width: 150px;
-  }
-  .aboutme-right {
-    width: 150px;
-    position: relative;
-  }
-  .aboutme-right img {
-    position: absolute;
-    top: -40px;
-    object-fit: cover;
-    width: 150px;
-    height: auto;
   }
   /* 制作実績 */
   .works {
