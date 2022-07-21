@@ -39,7 +39,7 @@ img {
 }
 
 .section-title {
-  font-size: 36px;
+  font-size: 3.6rem;
   margin: 80px 0;
 }
 
@@ -178,6 +178,76 @@ textarea {
       font-size: 6rem;
       font-weight: 300;
       color: #fff;
+    }
+  }
+
+/*==============================================================
+  # レスポンシブ 787pxまでの設定
+==============================================================*/
+@media screen and (max-width:787px) {
+  /* 共通 */
+  .section-title {
+    font-size: 2.4rem;
+    margin: 40px 0;
+  }
+
+  h2::before {
+    width: 80px;
+  }
+  /* マテリアルアイコン */
+    #open {
+      font-size: 4rem;
+    }
+
+    .overlay.show {
+      opacity: 1;
+      pointer-events: auto;
+      margin-left: auto;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: #fff;
+      text-align: left;
+      padding: 50px;
+      opacity: 0;
+      pointer-events: none; // 下に配置したものが選択できるようにする
+      transition: opacity 0.6s; // メニューを押すとフワッと表示
+      z-index: 150;
+      width: 72%;
+    }
+
+    .sp-menu {
+      margin-top: 180px;
+
+      .sp-nav-list {
+        padding: 10px;
+        line-height: 4;
+      }
+    }
+
+    #close {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      font-size: 4rem;
+      color: black;
+      cursor: pointer;
+    }
+
+    .page-top {
+      right: 20px;
+      a {
+        width: 4rem;
+        height: 4rem;
+        .material-symbols-outlined {
+          font-size: 4rem;
+        }
+      }
     }
   }
 }

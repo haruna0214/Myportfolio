@@ -39,7 +39,7 @@ img {
 }
 
 .section-title {
-  font-size: 36px;
+  font-size: 3.6rem;
   margin: 80px 0;
 }
 
@@ -164,6 +164,9 @@ textarea {
   background-color: #775f55;
   border-radius: 50%;
   transition: all 0.3s;
+  /*==============================================================
+  # レスポンシブ 787pxまでの設定
+==============================================================*/
 }
 
 .page-top a {
@@ -178,4 +181,66 @@ textarea {
   font-size: 6rem;
   font-weight: 300;
   color: #fff;
+}
+
+@media screen and (max-width: 787px) {
+  .page-top {
+    /* 共通 */
+    /* マテリアルアイコン */
+  }
+  .page-top .section-title {
+    font-size: 2.4rem;
+    margin: 40px 0;
+  }
+  .page-top h2::before {
+    width: 80px;
+  }
+  .page-top #open {
+    font-size: 4rem;
+  }
+  .page-top .overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+    margin-left: auto;
+  }
+  .page-top .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    text-align: left;
+    padding: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+    z-index: 150;
+    width: 72%;
+  }
+  .page-top .sp-menu {
+    margin-top: 180px;
+  }
+  .page-top .sp-menu .sp-nav-list {
+    padding: 10px;
+    line-height: 4;
+  }
+  .page-top #close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 4rem;
+    color: black;
+    cursor: pointer;
+  }
+  .page-top .page-top {
+    right: 20px;
+  }
+  .page-top .page-top a {
+    width: 4rem;
+    height: 4rem;
+  }
+  .page-top .page-top a .material-symbols-outlined {
+    font-size: 4rem;
+  }
 }

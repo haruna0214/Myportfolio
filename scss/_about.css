@@ -102,3 +102,14 @@
   margin: 0 auto;
   line-height: 24px;
 }
+
+/*==============================================================
+  # レスポンシブ 480pxまでの設定
+    about.html
+==============================================================*/
+@media screen and (max-width: 480px) {
+  .profile {
+    background-image: url("../img/about02(sp).png");
+    margin-bottom: 100px;
+  }
+}

@@ -67,3 +67,18 @@ header {
 .overlay {
   opacity: 0;
 }
+
+/*==============================================================
+  # レスポンシブ 787pxまでの設定
+==============================================================*/
+@media screen and (max-width:787px) {
+
+  /* header */
+  .pc-nav {
+    display: none;
+  }
+  .sp-icon {
+    opacity: 1;
+    margin-left: auto;
+  }
+}
