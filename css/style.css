@@ -523,6 +523,10 @@ footer li {
     letter-spacing: 0.05em;
     font-size: 1.6rem;
   }
+
+  .aboutme-right {
+    text-align: center;
+  }
   /* 制作実績 */
   .works {
     margin-bottom: 100px;
