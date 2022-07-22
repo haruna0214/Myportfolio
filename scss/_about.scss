@@ -4,36 +4,33 @@
   /* 私について */
   .profile {
     width: 100%;
-    margin-bottom: 120px;
     background-color: #F1F0EA;
     background-repeat: no-repeat;
-    padding: 100px 0;
+    padding: 0 0 120px 0;
   }
 
   .profile-flex {
     display: flex;
-    align-items: flex-start;
-    gap: 40px;
+    align-items: center;
+    gap: 80px;
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 40px;
-  }
-
-  .profile-left {
-    display: flex;
-    flex-direction: column;
-
-    .titlePage-profile {
-      .section-title {
-        margin-top: 0;
-      }
+    padding: 40px;
+    @media screen and (max-width:787px) {
+      flex-direction: column;
+      padding: 0;
+      gap: 40px;
     }
   }
 
   .profile-text {
+    width: 64%;
     p {
       line-height: 24px;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.08em;
+      @media screen and (max-width:787px) {
+        letter-spacing: 0.05em;
+      }
     }
   }
 
@@ -111,12 +108,9 @@
   }
 /*==============================================================
   # レスポンシブ 480pxまでの設定
-    about.html
 ==============================================================*/
 
-@media screen and (max-width:480px) {
-  .profile {
-    background-image: url("../img/about02\(sp\).png");
-    margin-bottom: 100px;
-  }
-}
+
+/*==============================================================
+  # レスポンシブ 787pxまでの設定
+==============================================================*/
