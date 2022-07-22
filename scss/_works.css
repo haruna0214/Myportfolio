@@ -2,8 +2,20 @@
 /*==============================================================
 実績一覧ページ(works.html)
 ==============================================================*/
-.works {
+.worksPage {
   width: 100%;
+}
+
+@media screen and (max-width: 787px) {
+  .worksPage {
+    margin: 100px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .worksPage {
+    flex-direction: column;
+  }
 }
 
 .work-flex {
