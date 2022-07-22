@@ -13,63 +13,67 @@
 }
 
 .works-items {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
   padding: 0 80px;
   @media screen and (max-width: 787px) {
-    flex-direction: column;
-    padding: 0;
+    // flex-direction: column;
+    // padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
   }
 }
-.works-items .left {
-  width: 44%;
-  @media screen and (max-width: 787px) {
-    width: 100%;
-  }
-}
-.works-items .right {
-  width: 44%;
-  padding-top: 120px;
-  @media screen and (max-width: 787px) {
-    width: 100%;
-    padding: 0;
-  }
-}
+// .works-items .left {
+//   width: 44%;
+//   @media screen and (max-width: 787px) {
+//     width: 100%;
+//   }
+// }
+// .works-items .right {
+//   width: 44%;
+//   padding-top: 120px;
+//   @media screen and (max-width: 787px) {
+//     width: 100%;
+//     padding: 0;
+//   }
+// }
 
 .works-item {
   margin-bottom: 200px;
   padding: 8px;
   box-shadow: 10px 10px 10px 10px #d2d2d7;
   @media screen and (max-width: 787px) {
-    margin: 0 40px 80px;
+    // margin: 0 40px 80px;
+    margin-bottom: 80px;
   }
 }
-@media screen and (max-width: 787px) {
-  .item1 {
-    order: 1;
-  }
-}
-@media screen and (max-width: 787px) {
-  .item2 {
-    order: 2;
-  }
-}
-@media screen and (max-width: 787px) {
-  .item3 {
-    order: 3;
-  }
-}
-@media screen and (max-width: 787px) {
-  .item4 {
-    order: 4;
-  }
-}
-@media screen and (max-width: 787px) {
-  .item5 {
-    order: 5;
-  }
-}
-
+// @media screen and (max-width: 787px) {
+//   .item1 {
+//     order: 1;
+//   }
+// }
+// @media screen and (max-width: 787px) {
+//   .item2 {
+//     order: 2;
+//   }
+// }
+// @media screen and (max-width: 787px) {
+//   .item3 {
+//     order: 3;
+//   }
+// }
+// @media screen and (max-width: 787px) {
+//   .item4 {
+//     order: 4;
+//   }
+// }
+// @media screen and (max-width: 787px) {
+//   .item5 {
+//     order: 5;
+//   }
+// }
 
 .works-text dl {
   margin: 4%;
