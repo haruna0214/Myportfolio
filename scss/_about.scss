@@ -6,31 +6,36 @@
     width: 100%;
     background-color: #F1F0EA;
     background-repeat: no-repeat;
-    padding: 0 0 120px 0;
+    @media screen and (max-width:787px) {
+      padding-top: 100px;
+    }
   }
 
   .profile-flex {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
     max-width: 1080px;
     margin: 0 auto;
     padding: 40px;
     @media screen and (max-width:787px) {
       flex-direction: column;
-      padding: 0;
+      padding: 24px;
       gap: 40px;
     }
   }
 
   .profile-text {
     width: 58%;
-    p {
-      line-height: 24px;
-      letter-spacing: 0.08em;
-      @media screen and (max-width:787px) {
-        letter-spacing: 0.05em;
-      }
+    @media screen and (max-width:787px) {
+      width: 100%;
+    }
+  }
+  .profile-text p {
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    @media screen and (max-width:787px) {
+      letter-spacing: 0.05em;
     }
   }
 

@@ -572,7 +572,7 @@ footer li {
   width: 100%;
   background-color: #F1F0EA;
   background-repeat: no-repeat;
-  padding: 0 0 120px 0;
+  /* padding: 0 0 120px 0; */
 }
 
 .profile-flex {
@@ -582,11 +582,6 @@ footer li {
   max-width: 1080px;
   margin: 0 auto;
   padding: 40px;
-  /* align-items: flex-start; */
-  /* gap: 40px;
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0 80px; */
 }
 .profile-text {
   width: 58%;
@@ -666,11 +661,17 @@ footer li {
   line-height: 24px;
 }
 @media screen and (max-width:787px) {
+  .profile {
+    padding-top: 100px;
+  }
   .profile-flex {
     flex-direction: column;
-    padding: 0;
+    padding: 24px;
     gap: 40px;
     }
+  .profile-text {
+    width: 100%;
+  }
   .profile-text p {
     letter-spacing: 0.05em;
   }
