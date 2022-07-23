@@ -597,42 +597,20 @@ footer li {
   margin-bottom: 120px;
 }
 
-.career-flex {
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
 
 .career-item {
-  display: flex;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
 }
 
 .career-item .Inner-left {
-  padding-top: 32px;
-  width: 15%;
+  padding-bottom: 10px;
 }
 
-.career-item .Inner-right {
-  width: 90%;
-  border-left: 2px solid #ddd;
-  padding-left: 8%;
-  padding-top: 35px;
-  letter-spacing: 0.08em;
-  line-height: 24px;
-  position: relative;
-}
-
-.career-item .Inner-right::before {
-  content: '';
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #856F66;
-  position: absolute;
-  top: 35px;
-  left: -8px;
-}
 
 /* 制作への思い */
 .heart {
@@ -677,6 +655,38 @@ footer li {
   }
 }
 
+@media screen and (min-width: 601px) {
+  .career-item {
+    display: flex;
+    border-left: none;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .career-item .Inner-left {
+    padding-top: 32px;
+    width: 15%;
+  }
+  .career-item .Inner-right {
+    width: 85%;
+    border-left: 2px solid #ddd;
+    padding-left: 8%;
+    padding-top: 35px;
+    position: relative;
+  }
+
+  .career-item .Inner-right::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #856F66;
+    position: absolute;
+    top: 35px;
+    left: -8px;
+  }
+}
+
 /*==============================================================
 ここから
 実績一覧ページ(works.html)
@@ -697,7 +707,7 @@ footer li {
 }
 
 .works-item {
-  margin-bottom: 200px;
+  margin-bottom: 120px;
   padding: 8px;
   box-shadow: 10px 10px 10px 10px #d2d2d7;
 }
