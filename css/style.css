@@ -597,20 +597,17 @@ footer li {
   margin-bottom: 120px;
 }
 
-
 .career-item {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 24px;
-    letter-spacing: 0.05em;
-    font-weight: 500;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
 }
-
-.career-item .Inner-left {
-  padding-bottom: 10px;
+.career-item .Inner-right {
+  padding-bottom: 16px;
 }
-
 
 /* 制作への思い */
 .heart {

@@ -59,36 +59,35 @@
       padding-top: 0;
     }
   }
-  .career-item .Inner-left {
-    padding-bottom: 10px;
-    @media screen and (min-width:601px) {
+
+  @media screen and (min-width:601px) {
+    .career-item .Inner-left {
       padding-top: 32px;
       width: 15%;
     }
   }
 
-@media screen and (min-width:601px) {
   .career-item .Inner-right {
-    width: 85%;
-    border-left: 2px solid #ddd;
-    padding-left: 8%;
-    padding-top: 35px;
-    position: relative;
-    // letter-spacing: 0.08em;
-    // line-height: 24px;
-    &::before {
-      content: '';
-      display: block;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      background: #856F66;
-      position: absolute;
-      top: 35px;
-      left: -8px;
+    padding-bottom: 16px;
+    @media screen and (min-width:601px) {
+      width: 85%;
+      border-left: 2px solid #ddd;
+      padding-left: 8%;
+      padding-top: 35px;
+      position: relative;
+      &::before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #856F66;
+        position: absolute;
+        top: 35px;
+        left: -8px;
+      }
     }
   }
-}
 
 
   /* 制作への思い */
