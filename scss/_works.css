@@ -28,6 +28,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
+    padding: 0 40px;
   }
 }
 

@@ -359,7 +359,7 @@ textarea {
 }
 
 .form-btn {
-  width: 200px;
+  max-width: 200px;
   margin: 0 auto;
   background-color: #856f66;
   color: #ffffff;
@@ -489,6 +489,7 @@ footer li {
   /* footer */
   footer li {
     padding: 0 20px;
+    font-size: 12px;
   }
   /*=================
 # Sp index.html
@@ -515,6 +516,7 @@ footer li {
 
   .name {
     font-weight: 600;
+    font-size: 1.8rem;
   }
 
   .remarks {
@@ -778,6 +780,7 @@ figcaption.hover-mask:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
+    padding: 0 40px;
   }
 
   .works-item {
