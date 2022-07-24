@@ -4,27 +4,39 @@
 /* fv */
 .fv {
   max-width: 1080px;
-  // margin-top: 100px;
   margin-bottom: 120px;
-
-  .fv-img img {
-    width: 100%;
+  @media screen and (max-width: 787px) {
+    margin-bottom: 100px;
   }
+}
+.fv-img img {
+  width: 100%;
 }
 
 /* section 私について */
 .aboutme {
   margin-bottom: 120px;
+  @media screen and (max-width: 787px) {
+    margin-bottom: 100px;
+    background-color: #FAFAFA;
+    padding-bottom: 40px;
+  }
 }
 
 .aboutme-content {
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 787px) {
+    flex-direction: column-reverse;
+  }
 }
 
 .aboutme-left {
   max-width: 480px;
   padding: 20px;
+  @media screen and (max-width: 787px) {
+    margin: 0 auto;
+  }
 
   p {
     letter-spacing: 0.1em;
@@ -35,34 +47,51 @@
 
 .name {
   font-size: 2.4rem;
+  @media screen and (max-width: 787px) {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
 }
 
-  .btn a {
-    // position: absolute;
-    color: #535d60;
-    border: solid #856f66;
-    background-color: #ffffff;
-    padding: 10px 40px;
-    width: 135px;
-    height: 40px;
-    border-radius: 0.4rem;
-
-    &:hover {
-      background-color: #856f66;
-      color: #ffffff;
-    }
+@media screen and (max-width: 787px) {
+  .remarks {
+    letter-spacing: 0.05em;
+    font-size: 1.6rem;
   }
+}
 
-.aboutme-right {
-    img {
-      width: 300px;
-      height: 340px;
-    }
+.btn a {
+  // position: absolute;
+  color: #535d60;
+  border: solid #856f66;
+  background-color: #ffffff;
+  padding: 10px 40px;
+  width: 135px;
+  height: 40px;
+  border-radius: 0.4rem;
+
+  &:hover {
+    background-color: #856f66;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .aboutme-right {
+    text-align: center;
+  }
+  img {
+    width: 300px;
+    height: 340px;
+  }
 }
 
 /* section 制作実績 */
 .works {
   margin-bottom: 120px;
+  @media screen and (max-width: 787px) {
+    margin-bottom: 100px;
+  }
 }
 
 .slick-slide {
@@ -113,9 +142,14 @@
   align-items: center;
   justify-content: center;
   font-size: 5.6rem;
-
-  .works-menu-viewmore {
+  @media screen and (max-width: 787px) {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 787px) {
+  .works-menu-viewmore {
+    font-size: 1.2rem;
+    padding-top: 8px;
   }
 }
 
@@ -132,71 +166,14 @@
   padding: 40px 20px;
   align-items: center;
   box-shadow: 10px 10px 30px #d2d2d7;
-}
-
-.service-text {
-  padding-left: 40px;
-  letter-spacing: 0.1em;
-  line-height: 24px;
-  width: 64%;
-
-  p {
-    margin: 48px 0;
-  }
-}
-
-/*==============================================================
-  # レスポンシブ 787pxまでの設定
-    index.html
-==============================================================*/
-@media screen and (max-width:787px) {
-  /* fv */
-  .fv {
-    margin-bottom: 100px;
-  }
-
-  /* aboutme */
-  .aboutme {
-    margin-bottom: 100px;
-    background-color: #FAFAFA;
-    padding-bottom: 40px;
-  }
-
-  .aboutme-content {
-    flex-direction: column-reverse;
-  }
-
-  .aboutme-left {
-    margin: 0 auto;
-  }
-
-  .name {
-    font-weight: 600;
-    font-size: 1.8rem;
-  }
-
-  .remarks {
-    letter-spacing: 0.05em;
-    font-size: 1.6rem;
-  }
-  .aboutme-right {
-    text-align: center;
-  }
-
-  /* 制作実績 */
-  .works {
-    margin-bottom: 100px;
-  }
-
-  /* できること */
-  .service-item {
+  @media screen and (max-width: 787px) {
     flex-direction: column;
     padding: 40px 20px;
   }
-
+}
+@media screen and (max-width: 787px) {
   .service-img {
     margin: 0 auto;
-
     img {
       width: 220px;
       height: 160px;
@@ -204,26 +181,36 @@
       border-radius: 20px;
     }
   }
+}
 
-  .service-text {
+.service-text {
+  padding-left: 40px;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  width: 64%;
+  @media screen and (max-width: 787px) {
     padding-left: 0;
     text-align: left;
     letter-spacing: 0.08em;
     line-height: 24px;
     width: 100%;
-
-    h3 {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    p {
-      padding: 0 20px;
-      margin: 32px 0;
-    }
   }
+}
+@media screen and (max-width: 787px) {
+  .service-text h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
 
-  /* お問い合わせ */
+.service-text p {
+  margin: 48px 0;
+  @media screen and (max-width: 787px) {
+    padding: 0 20px;
+    margin: 32px 0;
+  }
+}
+@media screen and (max-width: 787px) {
   .contact {
     margin-bottom: 100px;
   }

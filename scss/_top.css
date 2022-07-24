@@ -8,7 +8,13 @@
   margin-bottom: 120px;
 }
 
-.fv .fv-img img {
+@media screen and (max-width: 787px) {
+  .fv {
+    margin-bottom: 100px;
+  }
+}
+
+.fv-img img {
   width: 100%;
 }
 
@@ -17,14 +23,34 @@
   margin-bottom: 120px;
 }
 
+@media screen and (max-width: 787px) {
+  .aboutme {
+    margin-bottom: 100px;
+    background-color: #FAFAFA;
+    padding-bottom: 40px;
+  }
+}
+
 .aboutme-content {
   display: flex;
   justify-content: center;
 }
 
+@media screen and (max-width: 787px) {
+  .aboutme-content {
+    flex-direction: column-reverse;
+  }
+}
+
 .aboutme-left {
   max-width: 480px;
   padding: 20px;
+}
+
+@media screen and (max-width: 787px) {
+  .aboutme-left {
+    margin: 0 auto;
+  }
 }
 
 .aboutme-left p {
@@ -35,6 +61,20 @@
 
 .name {
   font-size: 2.4rem;
+}
+
+@media screen and (max-width: 787px) {
+  .name {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .remarks {
+    letter-spacing: 0.05em;
+    font-size: 1.6rem;
+  }
 }
 
 .btn a {
@@ -52,14 +92,25 @@
   color: #ffffff;
 }
 
-.aboutme-right img {
-  width: 300px;
-  height: 340px;
+@media screen and (max-width: 787px) {
+  .aboutme-right {
+    text-align: center;
+  }
+  img {
+    width: 300px;
+    height: 340px;
+  }
 }
 
 /* section 制作実績 */
 .works {
   margin-bottom: 120px;
+}
+
+@media screen and (max-width: 787px) {
+  .works {
+    margin-bottom: 100px;
+  }
 }
 
 .slick-slide {
@@ -112,8 +163,17 @@
   font-size: 5.6rem;
 }
 
-.slider-hov .works-menu-viewmore {
-  font-size: 2rem;
+@media screen and (max-width: 787px) {
+  .slider-hov {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .works-menu-viewmore {
+    font-size: 1.2rem;
+    padding-top: 8px;
+  }
 }
 
 /* section できること */
@@ -130,58 +190,14 @@
   box-shadow: 10px 10px 30px #d2d2d7;
 }
 
-.service-text {
-  padding-left: 40px;
-  letter-spacing: 0.1em;
-  line-height: 24px;
-  width: 64%;
-}
-
-.service-text p {
-  margin: 48px 0;
-}
-
-/*==============================================================
-  # レスポンシブ 787pxまでの設定
-    index.html
-==============================================================*/
 @media screen and (max-width: 787px) {
-  /* fv */
-  .fv {
-    margin-bottom: 100px;
-  }
-  /* aboutme */
-  .aboutme {
-    margin-bottom: 100px;
-    background-color: #FAFAFA;
-    padding-bottom: 40px;
-  }
-  .aboutme-content {
-    flex-direction: column-reverse;
-  }
-  .aboutme-left {
-    margin: 0 auto;
-  }
-  .name {
-    font-weight: 600;
-    font-size: 1.8rem;
-  }
-  .remarks {
-    letter-spacing: 0.05em;
-    font-size: 1.6rem;
-  }
-  .aboutme-right {
-    text-align: center;
-  }
-  /* 制作実績 */
-  .works {
-    margin-bottom: 100px;
-  }
-  /* できること */
   .service-item {
     flex-direction: column;
     padding: 40px 20px;
   }
+}
+
+@media screen and (max-width: 787px) {
   .service-img {
     margin: 0 auto;
   }
@@ -191,6 +207,16 @@
     background-color: rgba(199, 189, 185, 0.4);
     border-radius: 20px;
   }
+}
+
+.service-text {
+  padding-left: 40px;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  width: 64%;
+}
+
+@media screen and (max-width: 787px) {
   .service-text {
     padding-left: 0;
     text-align: left;
@@ -198,15 +224,27 @@
     line-height: 24px;
     width: 100%;
   }
+}
+
+@media screen and (max-width: 787px) {
   .service-text h3 {
     text-align: center;
     margin-top: 20px;
   }
+}
+
+.service-text p {
+  margin: 48px 0;
+}
+
+@media screen and (max-width: 787px) {
   .service-text p {
     padding: 0 20px;
     margin: 32px 0;
   }
-  /* お問い合わせ */
+}
+
+@media screen and (max-width: 787px) {
   .contact {
     margin-bottom: 100px;
   }
