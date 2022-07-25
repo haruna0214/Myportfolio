@@ -473,8 +473,8 @@ footer li {
   }
   #close {
     position: absolute;
-    top: 30px;
-    right: 40px;
+    top: 28px;
+    right: 22px;
     font-size: 4rem;
     color: black;
     cursor: pointer;
