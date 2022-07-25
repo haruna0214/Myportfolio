@@ -36,12 +36,12 @@ $(function () {
   // クリックしたら処理してねの指示
     open.addEventListener('click', () => {
     overlay.classList.add('show');
-    open.classList.add('hide');
+    open.classList.add('hide')
     // hideクラスを作成してマテリアルアイコン開いた時にアイコン（閉）の後ろに透ける（開）マークをなくすため
   });
 
   close.addEventListener('click', () => {
     overlay.classList.remove('show');
-    open.classList.remove('hide');
+    open.classList.remove('hide')
   });
 }
