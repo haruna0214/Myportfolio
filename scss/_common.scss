@@ -20,6 +20,9 @@ body {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 40px;
+  @media screen and (max-width: 787px) {
+    padding: 0 20px;
+  }
 }
 
 a {
@@ -41,12 +44,15 @@ img {
 .section-title {
   font-size: 3.6rem;
   margin: 80px 0;
+  @media screen and (max-width:787px) {
+    font-size: 2.4rem;
+    margin: 40px 0;
+  }
 }
 
 h2 {
   position: relative;
   display: inline-block;
-
   &:before {
     content: "";
     position: absolute;
@@ -63,6 +69,9 @@ h2 {
     /*位置調整*/
     background-color: #775f55;
     border-radius: 2px;
+    @media screen and (max-width:787px) {
+      width: 80px;
+    }
   }
 }
 
@@ -72,8 +81,54 @@ h3 {
 }
 
 dt {
-  font-weight: normal;
   font-size: 1.8rem;
+}
+@media screen and (max-width:787px) {
+  #open {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width:787px) {
+  .overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+    margin-left: auto;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    text-align: left;
+    padding: 50px;
+    opacity: 0;
+    pointer-events: none; // 下に配置したものが選択できるようにする
+    transition: opacity 0.6s; // メニューを押すとフワッと表示
+    z-index: 150;
+    width: 72%;
+  }
+}
+@media screen and (max-width:787px) {
+  .sp-menu {
+    margin-top: 180px;
+    .sp-nav-list {
+      padding: 10px;
+      line-height: 4;
+    }
+  }
+}
+@media screen and (max-width:787px) {
+  #close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 4rem;
+    color: black;
+    cursor: pointer;
+  }
 }
 
 /* お問い合わせフォーム */
@@ -100,6 +155,9 @@ dt {
   max-width: 1000px;
   margin: 0 auto;
   background-color: #fff;
+  @media screen and (max-width: 787px) {
+    padding: 16px;
+  }
 }
 
 .form-item {
@@ -138,6 +196,7 @@ textarea {
   overflow: auto;
   border: 1px solid #9e9e9e;
   border-radius: 0.4rem;
+  padding: 8px;
 }
 
 .form-btn {
@@ -166,88 +225,26 @@ textarea {
   background-color: #775f55;
   border-radius: 50%;
   transition: all 0.3s;
-
-  a {
-    position: relative;
-    display: block;
-    width: 6rem;
-    height: 6rem;
-    text-decoration: none;
-
-    .material-symbols-outlined {
-      font-size: 6rem;
-      font-weight: 300;
-      color: #fff;
-    }
+  @media screen and (max-width:787px) {
+    right: 20px;
   }
-
-/*==============================================================
-  # レスポンシブ 787pxまでの設定
-==============================================================*/
-@media screen and (max-width:787px) {
-  /* 共通 */
-  .section-title {
-    font-size: 2.4rem;
-    margin: 40px 0;
+}
+.page-top a {
+  position: relative;
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  text-decoration: none;
+  @media screen and (max-width:787px) {
+    width: 4rem;
+    height: 4rem;
   }
-
-  h2::before {
-    width: 80px;
-  }
-  /* マテリアルアイコン */
-    #open {
-      font-size: 4rem;
-    }
-
-    .overlay.show {
-      opacity: 1;
-      pointer-events: auto;
-      margin-left: auto;
-    }
-
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background: #fff;
-      text-align: left;
-      padding: 50px;
-      opacity: 0;
-      pointer-events: none; // 下に配置したものが選択できるようにする
-      transition: opacity 0.6s; // メニューを押すとフワッと表示
-      z-index: 150;
-      width: 72%;
-    }
-
-    .sp-menu {
-      margin-top: 180px;
-
-      .sp-nav-list {
-        padding: 10px;
-        line-height: 4;
-      }
-    }
-
-    #close {
-      position: absolute;
-      top: 30px;
-      right: 40px;
-      font-size: 4rem;
-      color: black;
-      cursor: pointer;
-    }
-
-    .page-top {
-      right: 20px;
-      a {
-        width: 4rem;
-        height: 4rem;
-        .material-symbols-outlined {
-          font-size: 4rem;
-        }
-      }
-    }
+}
+.page-top .material-symbols-outlined {
+  font-size: 6rem;
+  font-weight: 300;
+  color: #fff;
+  @media screen and (max-width:787px) {
+    font-size: 4rem;
   }
 }
