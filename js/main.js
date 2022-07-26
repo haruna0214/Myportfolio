@@ -40,7 +40,7 @@ $(function () {
     // hideクラスを作成してマテリアルアイコン開いた時にアイコン（閉）の後ろに透ける（開）マークをなくすため
   });
 
-  close.addEventListener('click', () => {
+    close.addEventListener('click', () => {
     overlay.classList.remove('show');
     open.classList.remove('hide')
   });
