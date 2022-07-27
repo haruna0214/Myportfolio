@@ -161,6 +161,13 @@ dt {
   padding-bottom: 80px;
 }
 
+@media screen and (max-width: 787px) {
+  .contact {
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+  }
+}
+
 .contact-text {
   letter-spacing: 0.08em;
   line-height: 32px;

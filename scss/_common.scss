@@ -148,6 +148,10 @@ dt {
   margin-bottom: 120px;
   max-width: none;
   padding-bottom: 80px;
+  @media screen and (max-width:787px) {
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+  }
 }
 
 .contact-text {

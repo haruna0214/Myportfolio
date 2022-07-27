@@ -581,6 +581,7 @@ footer li {
   /* お問い合わせ */
   .contact {
     margin-bottom: 100px;
+    padding-bottom: 40px;
   }
 }
 
