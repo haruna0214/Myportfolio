@@ -799,7 +799,7 @@ figcaption.hover-mask:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
-    padding: 0 40px;
+    padding: 0 20px;
   }
 
   .works-item {
