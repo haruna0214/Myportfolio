@@ -44,4 +44,9 @@ $(function () {
     overlay.classList.remove('show');
     open.classList.remove('hide')
   });
+
+   // ページ内リンクをクリックした時にハンバーガーメニューを閉じる
+  $('.sp-nav-list a').on('click', function () {
+    $('.overlay').removeClass('overlay show');
+  });
 }
