@@ -22,12 +22,6 @@ body {
   padding: 0 40px;
 }
 
-@media screen and (max-width: 787px) {
-  .wrapper {
-    padding: 0 20px;
-  }
-}
-
 a {
   text-decoration: none;
 }
@@ -53,6 +47,20 @@ img {
   .section-title {
     font-size: 2.4rem;
     margin: 40px 0;
+  }
+}
+
+.sub-title {
+  text-align: left;
+  margin: 80px 0;
+  font-size: 2.4rem;
+}
+
+@media screen and (max-width: 787px) {
+  .sub-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.6rem;
   }
 }
 
@@ -239,12 +247,6 @@ textarea {
   background-color: #775f55;
   border-radius: 50%;
   transition: all 0.3s;
-}
-
-@media screen and (max-width: 787px) {
-  .page-top {
-    right: 20px;
-  }
 }
 
 .page-top a {

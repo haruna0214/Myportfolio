@@ -24,55 +24,15 @@
     padding: 0 40px;
   }
 }
-// .works-items .left {
-//   width: 44%;
-//   @media screen and (max-width: 787px) {
-//     width: 100%;
-//   }
-// }
-// .works-items .right {
-//   width: 44%;
-//   padding-top: 120px;
-//   @media screen and (max-width: 787px) {
-//     width: 100%;
-//     padding: 0;
-//   }
-// }
 
 .works-item {
   margin-bottom: 120px;
   padding: 8px;
   box-shadow: 10px 10px 10px 10px #d2d2d7;
   @media screen and (max-width: 787px) {
-    // margin: 0 40px 80px;
     margin-bottom: 80px;
   }
 }
-// @media screen and (max-width: 787px) {
-//   .item1 {
-//     order: 1;
-//   }
-// }
-// @media screen and (max-width: 787px) {
-//   .item2 {
-//     order: 2;
-//   }
-// }
-// @media screen and (max-width: 787px) {
-//   .item3 {
-//     order: 3;
-//   }
-// }
-// @media screen and (max-width: 787px) {
-//   .item4 {
-//     order: 4;
-//   }
-// }
-// @media screen and (max-width: 787px) {
-//   .item5 {
-//     order: 5;
-//   }
-// }
 
 .works-text dl {
   margin: 4%;
@@ -138,13 +98,22 @@ figcaption.hover-mask {
 実績ごとのページ(works1.htmlからworks5.htmlまで)
 ==============================================================*/
 .works-web {
+  width: 100%;
+  margin: 0 auto;
   margin-bottom: 120px;
+  @media screen and (max-width: 787px) {
+    padding-top: 100px;
+  }
+}
+.works-flex {
+  width: 100%;
 }
 
 .worksPage-image {
   display: block;
   margin: 0 auto;
-  max-width: 720px;
+  width: 100%;
+  height: 100%;
 }
 
 dl.works-summary {
@@ -152,6 +121,13 @@ dl.works-summary {
   flex-wrap: wrap;
   margin: 40px 20px;
   font-size: 1.6rem;
+  @media screen and (max-width: 787px) {
+    position: relative;
+    max-width: 800px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+  }
 }
 
 dt.works-heading {
@@ -169,13 +145,8 @@ dt.works-heading {
 dd.works-text {
   width: 75%;
   margin-bottom: 30px;
-  // vertical-align: baseline;
 }
 
-.works-web h3 {
-  text-align: left;
-  margin: 80px 0;
-}
 
 .works-btn {
   margin: 40px auto 120px;
