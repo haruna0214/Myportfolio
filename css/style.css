@@ -267,11 +267,11 @@ header {
   align-items: center;
   justify-content: center;
 }
-.slider-hov .works-menu {
+.works-menu {
   font-size: 5.6rem;
 }
 
-.slider-hov .works-menu-viewmore {
+.works-menu-viewmore {
   font-size: 2rem;
   padding-top: 8px;
 }
@@ -552,7 +552,7 @@ footer li {
   .works {
     margin-bottom: 100px;
   }
-  .slider-hov .works-menu {
+  .works-menu {
     font-size: 2rem;
   }
   .works-menu-viewmore {
