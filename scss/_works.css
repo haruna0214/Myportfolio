@@ -224,10 +224,33 @@ dd.works-text {
   gap: 60px;
 }
 
-.PC-left {
+@media screen and (max-width: 787px) {
+  .works-lists {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+}
+
+.left-pc {
   width: 65%;
 }
 
-.SP-right {
+@media screen and (max-width: 787px) {
+  .left-pc {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 40px;
+  }
+}
+
+.right-sp {
   width: 30%;
+}
+
+@media screen and (max-width: 787px) {
+  .right-sp {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 40px;
+  }
 }

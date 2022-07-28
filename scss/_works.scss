@@ -192,12 +192,34 @@ dd.works-text {
   display: flex;
   justify-content: center;
   gap: 60px;
+  @media screen and (max-width: 787px) {
+    flex-direction: column;
+    margin-top: 100px;
+  }
 }
 
-.PC-left {
+.left-pc {
   width: 65%;
+  @media screen and (max-width: 787px) {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 40px;
+  }
 }
 
-.SP-right {
+// .left-pc img {
+//   box-shadow: 4px 4px 12px rgb(62 62 62 / 30%);
+// }
+
+.right-sp {
   width: 30%;
+  @media screen and (max-width: 787px) {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 40px;
+  }
 }
+
+// .right-sp img {
+//   box-shadow: 4px 4px 12px rgb(62 62 62 / 30%);
+// }
