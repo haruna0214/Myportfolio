@@ -7,12 +7,6 @@
     margin: 100px 0 0 0;
   }
 }
-.worksPage .section-title {
-  margin: 80px 0 0;
-  @media screen and (max-width: 787px) {
-    margin: 40px 0 0;
-  }
-}
 
 .work-flex {
   padding: 0 40px;
@@ -112,8 +106,14 @@ figcaption.hover-mask {
     max-width: 600px;
     margin: 0 auto;
     width: 100%;
-    }
   }
+}
+.works-web .section-title {
+  margin: 80px 0 0;
+  @media screen and (max-width: 787px) {
+    margin: 40px 0 0;
+  }
+}
 
 .works-flex {
   width: 100%;
