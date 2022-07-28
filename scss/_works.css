@@ -180,7 +180,7 @@ dd.works-text {
 .works-btn {
   display: flex;
   justify-content: center;
-  padding: 80px 0;
+  margin-top: 80px;
 }
 
 @media screen and (max-width: 787px) {
@@ -188,7 +188,7 @@ dd.works-text {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 40px 0 80px;
+    margin-top: 40px;
   }
 }
 
@@ -204,6 +204,14 @@ dd.works-text {
 .item-btn:hover {
   background-color: #856f66;
   color: #ffffff;
+}
+
+.works-lists {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
 .PC-left {

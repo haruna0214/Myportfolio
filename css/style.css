@@ -48,7 +48,7 @@ img {
 
 .section-title {
   font-size: 36px;
-  margin: 80px 0;
+  margin: 80px 0 0;
 }
 .sub-title {
   text-align: left;
@@ -435,7 +435,7 @@ footer li {
   }
   .section-title {
     font-size: 2.4rem;
-    margin: 40px 0;
+    margin: 40px 0 0;
   }
   .sub-title {
     text-align: center;
@@ -870,7 +870,7 @@ dd.works-text {
 .works-btn {
   display: flex;
   justify-content: center;
-  padding: 80px 0;
+  margin-top: 80px;
 }
 
 .item-btn {
@@ -886,14 +886,25 @@ dd.works-text {
   background-color: #856f66;
   color: #ffffff;
 }
+.works-lists {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
 
-.PC-left {
+.left-pc {
   width: 65%;
 }
 
-.SP-right {
+.right-sp {
   width: 30%;
 }
+.right-sp img {
+  box-shadow: 4px 4px 12px rgb(62 62 62 / 30%);
+}
+
 @media screen and (max-width: 787px) {
   .works-web {
     padding-top: 100px;
@@ -916,7 +927,7 @@ dd.works-text {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 40px 0 80px;
+    margin-top: 40px;
   }
 
 
