@@ -48,7 +48,7 @@ img {
 
 .section-title {
   font-size: 36px;
-  margin: 80px 0 0;
+  margin: 80px 0;
 }
 .sub-title {
   text-align: left;
@@ -435,7 +435,7 @@ footer li {
   }
   .section-title {
     font-size: 2.4rem;
-    margin: 40px 0 0;
+    margin: 40px 0;
   }
   .sub-title {
     text-align: center;
@@ -723,6 +723,9 @@ footer li {
 .worksPage {
   width: 100%;
 }
+.worksPage .section-title {
+  margin: 80px 0 0;
+}
 
 .work-flex {
   padding: 0 40px;
@@ -804,6 +807,9 @@ figcaption.hover-mask:hover {
 @media screen and (max-width: 787px)  {
   .worksPage {
     margin: 100px 0 0 0;
+  }
+  .worksPage .section-title {
+    margin: 40px 0 0;
   }
 
   .works-items {
