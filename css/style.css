@@ -932,10 +932,12 @@ dd.works-text {
     width: 100%;
   }
   .works-btn  {
-    display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     margin-top: 40px;
+  }
+  .item-btn {
+    padding: 5px 20px;
+    margin: 0;
   }
   .works-lists {
     flex-direction: column;
