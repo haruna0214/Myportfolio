@@ -231,7 +231,7 @@ dd.works-text {
 @media screen and (max-width: 787px) {
   .works-lists {
     flex-direction: column;
-    margin-top: 100px;
+    text-align: center;
   }
 }
 

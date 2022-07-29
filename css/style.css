@@ -945,7 +945,7 @@ dd.works-text {
   }
   .works-lists {
     flex-direction: column;
-    margin-top: 100px;
+    text-align: center;
   }
   .left-pc {
     width: 100%;
