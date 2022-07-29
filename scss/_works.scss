@@ -207,9 +207,10 @@ dd.works-text {
   }
 }
 
-// .left-pc img {
-//   box-shadow: 4px 4px 12px rgb(62 62 62 / 30%);
-// }
+.left-pc img {
+  box-shadow: 4px 8px 9px #9a9696;
+  max-height: 2200px;
+}
 
 .right-sp {
   width: 30%;
@@ -220,6 +221,7 @@ dd.works-text {
   }
 }
 
-// .right-sp img {
-//   box-shadow: 4px 4px 12px rgb(62 62 62 / 30%);
-// }
+.right-sp img {
+  box-shadow: 4px 8px 9px #9a9696;
+  max-height: 2200px;
+}

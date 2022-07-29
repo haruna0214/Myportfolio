@@ -901,13 +901,17 @@ dd.works-text {
   width: 65%;
 }
 .left-pc img {
-  box-shadow: 4px 4px 12px rgb(62 62 62 / 30%);
+  /* box-shadow: 4px 4px 12px rgb(62 62 62 / 30%); */
+  box-shadow: 4px 8px 9px #ccc6c6;
+  max-height: 2200px;
 }
 .right-sp {
   width: 30%;
 }
 .right-sp img {
-  box-shadow: 4px 4px 12px rgb(62 62 62 / 30%);
+  /* box-shadow: 4px 4px 12px rgb(62 62 62 ); */
+  box-shadow: 4px 8px 9px #ccc6c6;
+  max-height: 2200px;
 }
 
 @media screen and (max-width: 787px) {

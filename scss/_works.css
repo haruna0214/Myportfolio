@@ -247,6 +247,11 @@ dd.works-text {
   }
 }
 
+.left-pc img {
+  box-shadow: 4px 8px 9px #9a9696;
+  max-height: 2200px;
+}
+
 .right-sp {
   width: 30%;
 }
@@ -257,4 +262,9 @@ dd.works-text {
     max-width: 420px;
     margin: 0 auto 40px;
   }
+}
+
+.right-sp img {
+  box-shadow: 4px 8px 9px #9a9696;
+  max-height: 2200px;
 }
