@@ -44,6 +44,7 @@ img {
 .section-title {
   font-size: 3.6rem;
   margin: 80px 0;
+  font-weight: 500;
   @media screen and (max-width:787px) {
     font-size: 2.4rem;
     margin: 40px 0;
@@ -52,12 +53,11 @@ img {
 .sub-title {
   text-align: left;
   margin: 80px 0;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   @media screen and (max-width:787px) {
     text-align: center;
     margin: 40px 0;
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 2rem;
   }
 }
 
