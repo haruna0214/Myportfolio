@@ -235,11 +235,6 @@ dd.works-text {
   }
 }
 
-.works-lists > p {
-  padding-bottom: 8px;
-  font-weight: 500;
-}
-
 .left-pc {
   width: 65%;
 }
@@ -250,6 +245,11 @@ dd.works-text {
     max-width: 420px;
     margin: 0 auto 40px;
   }
+}
+
+.left-pc p {
+  padding-bottom: 8px;
+  font-weight: 500;
 }
 
 .left-pc img {
@@ -267,6 +267,11 @@ dd.works-text {
     max-width: 420px;
     margin: 0 auto 40px;
   }
+}
+
+.right-sp p {
+  padding-bottom: 8px;
+  font-weight: 500;
 }
 
 .right-sp img {

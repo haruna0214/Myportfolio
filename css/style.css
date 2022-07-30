@@ -898,14 +898,14 @@ dd.works-text {
   gap: 60px;
 }
 
-.works-lists > p {
+.left-pc {
+  width: 65%;
+}
+.left-pc p {
   padding-bottom: 8px;
   font-weight: 500;
 }
 
-.left-pc {
-  width: 65%;
-}
 .left-pc img {
   box-shadow: 4px 8px 9px #ccc6c6;
   max-height: 2200px;
@@ -913,6 +913,11 @@ dd.works-text {
 .right-sp {
   width: 30%;
 }
+.right-sp p {
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+
 .right-sp img {
   box-shadow: 4px 8px 9px #ccc6c6;
   max-height: 2200px;

@@ -197,10 +197,6 @@ dd.works-text {
     text-align: center;
   }
 }
-.works-lists > p {
-  padding-bottom: 8px;
-  font-weight: 500;
-}
 
 .left-pc {
   width: 65%;
@@ -208,6 +204,10 @@ dd.works-text {
     width: 100%;
     max-width: 420px;
     margin: 0 auto 40px;
+  }
+  p {
+    padding-bottom: 8px;
+    font-weight: 500;
   }
 }
 
@@ -222,6 +222,10 @@ dd.works-text {
     width: 100%;
     max-width: 420px;
     margin: 0 auto 40px;
+  }
+  p {
+    padding-bottom: 8px;
+    font-weight: 500;
   }
 }
 
