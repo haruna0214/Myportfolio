@@ -115,7 +115,6 @@ figcaption.hover-mask:hover {
 @media screen and (max-width: 787px) {
   .works-web {
     padding-top: 100px;
-    max-width: 600px;
     margin: 0 auto;
     width: 100%;
   }
@@ -242,7 +241,6 @@ dd.works-text {
 @media screen and (max-width: 787px) {
   .left-pc {
     width: 100%;
-    max-width: 420px;
     margin: 0 auto 40px;
   }
 }
@@ -264,7 +262,6 @@ dd.works-text {
 @media screen and (max-width: 787px) {
   .right-sp {
     width: 100%;
-    max-width: 420px;
     margin: 0 auto 40px;
   }
 }
