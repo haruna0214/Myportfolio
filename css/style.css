@@ -810,12 +810,11 @@ figcaption.hover-mask:hover {
   .works-items {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
     padding: 0 20px;
   }
 
   .works-item {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
 }
 
