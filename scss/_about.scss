@@ -113,11 +113,7 @@
     }
 
     .heart-text {
-      width: 72%;
       margin: 0 auto;
       line-height: 24px;
-      @media screen and (max-width:787px) {
-        width: 100%;
-      }
     }
   }

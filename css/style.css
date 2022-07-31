@@ -664,7 +664,6 @@ footer li {
 }
 
 .heart-item .heart-text {
-  width: 72%;
   margin: 0 auto;
   line-height: 24px;
 }
@@ -861,8 +860,8 @@ dt.works-heading {
 
 dt.works-heading .material-symbols-outlined {
   font-size: 1.6rem;
-  display: inline-flex;
-  vertical-align: middle;
+  /* display: inline-flex;
+  vertical-align: middle; */
 }
 
 dd.works-text {
