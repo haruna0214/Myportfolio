@@ -128,11 +128,11 @@ figcaption.hover-mask {
 dl.works-summary {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 40px 20px;
   font-size: 1.6rem;
   @media screen and (max-width: 787px) {
     flex-direction: column;
-    line-height: 24px;
     letter-spacing: 0.05em;
   }
 }
@@ -156,7 +156,11 @@ dd.works-text {
   margin-bottom: 30px;
   @media screen and (max-width: 787px) {
     width: 100%;
+    white-space: normal;
   }
+    a {
+      word-break: break-all;
+    }
 }
 
 
