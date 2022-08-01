@@ -28,25 +28,26 @@ $(function () {
 ハンバーガーメニューについて
 ===================================================*/
 {
+
   const open = document.getElementById('open');
   const overlay = document.querySelector('.overlay');
   const close = document.getElementById('close');
 
 
   // クリックしたら処理してねの指示
-    open.addEventListener('click', () => {
+  open.addEventListener('click', () => {
     overlay.classList.add('show');
     open.classList.add('hide')
     // hideクラスを作成してマテリアルアイコン開いた時にアイコン（閉）の後ろに透ける（開）マークをなくすため
   });
 
-    close.addEventListener('click', () => {
+  close.addEventListener('click', () => {
     overlay.classList.remove('show');
     open.classList.remove('hide')
   });
 
-   // ページ内リンクをクリックした時にハンバーガーメニューを閉じる
+  // ページ内リンクをクリックした時にハンバーガーメニューを閉じる
   $('.sp-nav-list a').on('click', function () {
-    $('.overlay').removeClass('overlay show');
+    $('.overlay').removeClass('show');
   });
 }
