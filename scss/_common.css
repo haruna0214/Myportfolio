@@ -116,12 +116,10 @@ dt {
   .overlay.show {
     opacity: 1;
     pointer-events: auto;
-    margin-left: auto;
   }
   .overlay {
     position: fixed;
     top: 0;
-    left: 0;
     bottom: 0;
     right: 0;
     background: #fff;
