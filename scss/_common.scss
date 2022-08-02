@@ -1,6 +1,7 @@
 /* 共通 */
 html {
   font-size: 10px;
+  scroll-padding-top: 100px; /* ページ内リンクが固定ヘッダーとの重なりを解消 */
 }
 
 body {
