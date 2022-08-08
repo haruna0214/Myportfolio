@@ -92,13 +92,14 @@
   color: #ffffff;
 }
 
+.aboutme-right img {
+  width: 300px;
+  height: 340px;
+}
+
 @media screen and (max-width: 787px) {
-  .aboutme-right {
+  .aboutme-right img {
     text-align: center;
-  }
-  img {
-    width: 300px;
-    height: 340px;
   }
 }
 

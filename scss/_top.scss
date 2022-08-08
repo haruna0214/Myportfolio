@@ -75,14 +75,11 @@
     color: #ffffff;
   }
 }
-
-@media screen and (max-width: 787px) {
-  .aboutme-right {
+.aboutme-right img {
+  width: 300px;
+  height: 340px;
+  @media screen and (max-width: 787px) {
     text-align: center;
-  }
-  img {
-    width: 300px;
-    height: 340px;
   }
 }
 
