@@ -50,6 +50,7 @@
   @media screen and (max-width: 787px) {
     font-weight: 600;
     font-size: 1.8rem;
+    text-align: center;
   }
 }
 
@@ -57,6 +58,12 @@
   .remarks {
     letter-spacing: 0.05em;
     font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .btn {
+    text-align: center;
   }
 }
 
