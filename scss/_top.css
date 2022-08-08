@@ -92,6 +92,12 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 787px) {
+  .aboutme-right {
+    margin: 0 auto;
+  }
+}
+
 .aboutme-right img {
   width: 300px;
   height: 340px;
@@ -99,7 +105,8 @@
 
 @media screen and (max-width: 787px) {
   .aboutme-right img {
-    text-align: center;
+    width: 250px;
+    height: 300px;
   }
 }
 
