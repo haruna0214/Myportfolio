@@ -1,10 +1,12 @@
 <!-- footer  -->
 <footer>
-    <ul>
-        <li><a href="about.html">私について</a></li>
-        <li><a href="works.html">制作実績</a></li>
-        <li><a href="#contact">お問い合わせ</a></li>
-    </ul>
+    <?php
+    wp_nav_menu(
+        array(
+            'theme_location' => 'footer-menu',
+        )
+    );
+    ?>
     <p class="copyright">&copy;<?php bloginfo('name'); ?></p>
 </footer>
 <!-- footer  -->
