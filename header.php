@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haruna | Portfolio</title>
+    <title><?php echo bloginfo('name'); ?></title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
@@ -53,11 +53,11 @@
                 <span class="material-icons" id="open">menu</span>
             </div> -->
             <?php
-                wp_nav_menu(
-                    array(
-                        'theme_location' => 'main-menu'
-                    )
-                    );
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'main-menu'
+                )
+            );
             ?>
     </header>
 
@@ -65,25 +65,25 @@
     <!-- <div class="overlay">
         <span class="material-icons" id="close">close</span>
         <!-- ハンバーガーメニュー 内容 -->
-        <nav class="sp-menu">
-            <ul class="sp-nav">
-                <li class="sp-nav-list">
-                    <a class="uLine" href="about.html">
-                        <span class="uLine-center">私について</span>
-                    </a>
-                </li>
-                <li class="sp-nav-list">
-                    <a class="uLine" href="works.html">
-                        <span class="uLine-center">制作実績</span>
-                    </a>
-                </li>
-                <li class="sp-nav-list">
-                    <a class="uLine" href="#contact">
-                        <span class="uLine-center">お問い合わせ</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+    <nav class="sp-menu">
+        <ul class="sp-nav">
+            <li class="sp-nav-list">
+                <a class="uLine" href="about.html">
+                    <span class="uLine-center">私について</span>
+                </a>
+            </li>
+            <li class="sp-nav-list">
+                <a class="uLine" href="works.html">
+                    <span class="uLine-center">制作実績</span>
+                </a>
+            </li>
+            <li class="sp-nav-list">
+                <a class="uLine" href="#contact">
+                    <span class="uLine-center">お問い合わせ</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
     </div> -->
 
     <!-- header 終わり-->
