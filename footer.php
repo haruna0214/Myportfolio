@@ -5,7 +5,7 @@
         <li><a href="works.html">制作実績</a></li>
         <li><a href="#contact">お問い合わせ</a></li>
     </ul>
-    <p class="copyright">&copy;Portfolio Haruna Tanaka</p>
+    <p class="copyright">&copy;<?php bloginfo('name'); ?></p>
 </footer>
 <!-- footer  -->
 
