@@ -184,4 +184,7 @@
     </a>
 </div>
 <!-- 上に戻るボタン -->
+
+<!-- footer  -->
 <?php get_footer(); ?>
+<!-- footer  -->

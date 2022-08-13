@@ -144,16 +144,6 @@
 </section>
 <!--  section お問い合わせ-->
 
-<!-- footer  -->
-<footer>
-  <ul>
-    <li><a href="about.html">私について</a></li>
-    <li><a href="works.html">制作実績</a></li>
-    <li><a href="#contact">お問い合わせ</a></li>
-  </ul>
-  <p class="copyright">&copy;Portfolio Haruna Tanaka</p>
-</footer>
-<!-- footer  -->
 <!-- 上に戻るボタン -->
 <div class="page-top">
   <a href="#">
@@ -161,4 +151,7 @@
   </a>
 </div>
 <!-- 上に戻るボタン -->
+
+<!-- footer  -->
 <?php get_footer(); ?>
+<!-- footer  -->
