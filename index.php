@@ -1,4 +1,6 @@
+<!-- header  -->
 <?php get_header(); ?>
+<!-- header  -->
 
 <!-- section fv -->
 <section class="fv wrapper">
