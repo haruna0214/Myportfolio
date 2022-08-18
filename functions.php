@@ -37,8 +37,20 @@ function add_files() {
 }
 add_action('wp_enqueue_scripts','add_files');
 
-// タイトルタグの管理
 function theme_setup() {
+    // titleタグの管理
     add_theme_support('title-tag');
+
+    // ナビメニュー表示（有効化）
+    add_theme_support('menus');
+
+    // ナビメニューの位置追加
+    register_nav_menus(
+        array(
+            'main-menu' => 'メインメニュー',
+            'footer-menu' => 'フッターメニュー',
+        )
+    );
 }
 add_action('after_setup_theme', 'theme_setup');
+add_theme_support('post-thumbnails');
