@@ -55,7 +55,10 @@
             <?php
             wp_nav_menu(
                 array(
-                    'theme_location' => 'main-menu'
+                    'theme_location' => 'main-menu', //メニュー管理画面で登録したメニュー名
+                    'container' => '',
+                    'container_class' => 'pc-nav',
+                    'menu_class' => 'nav-lists', 'nav-list'
                 )
             );
             ?>
@@ -65,25 +68,25 @@
     <!-- <div class="overlay">
         <span class="material-icons" id="close">close</span>
         <!-- ハンバーガーメニュー 内容 -->
-    <nav class="sp-menu">
+    <!-- <nav class="sp-menu">
         <ul class="sp-nav">
             <li class="sp-nav-list">
-                <a class="uLine" href="about.html">
-                    <span class="uLine-center">私について</span>
+                <a class="uLine" href="<?php echo esc_url(home_url('/about/')); ?>">
+                    <span class=" uLine-center">私について</span>
                 </a>
             </li>
             <li class="sp-nav-list">
-                <a class="uLine" href="works.html">
-                    <span class="uLine-center">制作実績</span>
+                <a class="uLine" href="<?php echo esc_url(home_url('/works/')); ?>"">
+                    <span class=" uLine-center">制作実績</span>
                 </a>
             </li>
             <li class="sp-nav-list">
-                <a class="uLine" href="#contact">
-                    <span class="uLine-center">お問い合わせ</span>
+                <a class="uLine" href="<?php echo esc_url(home_url('/contact/')); ?>">
+                    <span class=" uLine-center">お問い合わせ</span>
                 </a>
             </li>
         </ul>
-    </nav>
-    </div> -->
+    </nav> -->
+    <!-- </div> -->
 
     <!-- header 終わり-->
