@@ -81,7 +81,7 @@
                 </a>
             </li>
             <li class="sp-nav-list">
-                <a class="uLine" href="<?php echo esc_url(home_url('/contact/')); ?>">
+                <a class="uLine" href="#contact">
                     <span class=" uLine-center">お問い合わせ</span>
                 </a>
             </li>
