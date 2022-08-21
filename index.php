@@ -24,7 +24,7 @@
                     お客様の抱える問題/課題について、前職の顧客の課題解決で身につけた経験を生かし、お客様の要望を汲み取りながら
                     一緒に作品を生み出していきたいです。</p>
                 <div class="btn">
-                    <a href="about.html">詳細へ</a>
+                    <a href="<?php echo home_url('/about'); ?>">詳細へ</a>
                 </div>
             </div>
             <div class="aboutme-right">
@@ -43,7 +43,7 @@
     <div class="slider" id="slider">
         <ul class="slider-lists">
             <li class="slider-list">
-                <a href="works1.html" class="slider-link">
+                <a href="<?php echo home_url('/works1'); ?>" class="slider-link">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works01.png" alt="スライド画像1">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
@@ -52,7 +52,7 @@
                 </a>
             </li>
             <li class="slider-list">
-                <a href="works2.html" class="slider-link">
+                <a href="<?php echo home_url('/works2'); ?>" class="slider-link">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works02.png" alt="スライド画像2">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
@@ -61,7 +61,7 @@
                 </a>
             </li>
             <li class="slider-list">
-                <a href="works3.html" class="slider-link">
+                <a href="<?php echo home_url('/works3'); ?>" class="slider-link">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works03.png" alt="スライド画像3">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
@@ -70,7 +70,7 @@
                 </a>
             </li>
             <li class="slider-list">
-                <a href="works4.html" class="slider-link">
+                <a href="<?php echo home_url('/works4'); ?>" class="slider-link">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works04.png" alt="スライド画像4">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
@@ -79,7 +79,7 @@
                 </a>
             </li>
             <li class="slider-list">
-                <a href="works5.html" class="slider-link">
+                <a href="<?php echo home_url('/works5'); ?>" class="slider-link">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works05.png" alt="スライド画像5">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
