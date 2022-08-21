@@ -9,8 +9,6 @@
     <title><?php echo bloginfo('name'); ?></title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
@@ -40,7 +38,7 @@
                             </a>
                         </li>
                         <li class="nav-list">
-                            <a class="uLine" href="<?php echo esc_url(home_url('/contact/')); ?>">
+                            <a class="uLine" href="#contact">
                                 <span class="uLine-center">お問い合わせ</span>
                             </a>
                         </li>
