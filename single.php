@@ -9,7 +9,7 @@
       <h2 class="section-title">作品紹介</h2>
     </div>
     <div class="works-flex">
-      <?php the_post_thumbnail(); ?>
+      <?php the_post_thumbnail(array(700, 400)); ?>
       <!-- <img src="img/works1-fv.png" alt="実績1" class="worksPage-image"> -->
       <p class="sub-title"><?php the_title(); ?></p>
       <dl class="works-summary">
