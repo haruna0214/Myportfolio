@@ -15,7 +15,7 @@
         $args = array(
           // 'post_type' => 'post', //投稿タイプを指定
           'category_name' => 'products', //カテゴリースラッグ指定
-          'posts_per_page' => 5, //1ページあたりの件数表示
+          'posts_per_page' => 6, //1ページあたりの件数表示
           'order'   => 'ASC', //記事の順番変更
         );
         $post_query = new WP_Query($args);
@@ -27,7 +27,11 @@
               <div class="works-img">
                 <a href="<?php the_permalink(); ?>" class="works_box">
                   <figure>
-                    <?php the_post_thumbnail('medium'); ?>
+                    <!-- 投稿にアイキャッチ画像がなかった場合、Noimage画像を表示させる記述-->
+                    <?php if (has_post_thumbnail()) : ?>
+                      <?php the_post_thumbnail('medium'); ?>
+                    <?php else : ?><img src="<?php echo get_template_directory_uri(); ?>/img/Noimage-fv.jpg">
+                    <?php endif; ?>
                     <figcaption class="hover-mask">詳細を見る</figcaption>
                   </figure>
                 </a>
@@ -41,7 +45,7 @@
             </div>
           <?php endwhile; ?>
         <?php else : ?>
-          <p>記事が見つかりません。</p>
+          <p>ページは見つかりません。</p>
         <?php endif; ?>
       </div>
     </div>
