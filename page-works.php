@@ -29,8 +29,8 @@
                   <figure>
                     <!-- 投稿にアイキャッチ画像がなかった場合、Noimage画像を表示させる記述-->
                     <?php if (has_post_thumbnail()) : ?>
-                      <?php the_post_thumbnail('medium'); ?>
-                    <?php else : ?><img src="<?php echo get_template_directory_uri(); ?>/img/Noimage-fv.jpg">
+                      <?php the_post_thumbnail(); ?>
+                    <?php else : ?><img src="<?php echo get_template_directory_uri(); ?>/img/Noimage-fv.jpg" alt="制作実績イメージ画">
                     <?php endif; ?>
                     <figcaption class="hover-mask">詳細を見る</figcaption>
                   </figure>
