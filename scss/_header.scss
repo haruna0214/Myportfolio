@@ -24,16 +24,21 @@ header {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
+  @media screen and (max-width:787px) {
+    display: none;
+  }
 }
 
 .nav-lists {
   display: flex;
   justify-content: center;
 
-  .nav-list {
-    padding-left: 40px;
-  }
 }
+// WP化でクラス名書き換えられた 旧）.nav-list
+.menu-item {
+  padding-left: 40px;
+}
+
 
 .uLine {
   text-decoration: none;
@@ -62,23 +67,12 @@ header {
 
 .sp-icon {
   opacity: 0;
+  @media screen and (max-width:787px) {
+    opacity: 1;
+    margin-left: auto;
+  }
 }
 
 .overlay {
   opacity: 0;
-}
-
-/*==============================================================
-  # レスポンシブ 787pxまでの設定
-==============================================================*/
-@media screen and (max-width:787px) {
-
-  /* header */
-  .pc-nav {
-    display: none;
-  }
-  .sp-icon {
-    opacity: 1;
-    margin-left: auto;
-  }
 }

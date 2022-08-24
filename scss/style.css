@@ -26,12 +26,18 @@ header {
   justify-content: space-between;
   margin-left: auto;
 }
+@media screen and (max-width: 787px) {
+  .pc-nav {
+    display: none;
+  }
+}
 
 .nav-lists {
   display: flex;
   justify-content: center;
 }
-.nav-lists .nav-list {
+
+.menu-item {
   padding-left: 40px;
 }
 
@@ -61,24 +67,17 @@ header {
 .sp-icon {
   opacity: 0;
 }
-
-.overlay {
-  opacity: 0;
-}
-
-/*==============================================================
-  # レスポンシブ 787pxまでの設定
-==============================================================*/
 @media screen and (max-width: 787px) {
-  /* header */
-  .pc-nav {
-    display: none;
-  }
   .sp-icon {
     opacity: 1;
     margin-left: auto;
   }
 }
+
+.overlay {
+  opacity: 0;
+}
+
 /*==============================================================
 # 全ページ共通
 ==============================================================*/
