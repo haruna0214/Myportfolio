@@ -9,8 +9,8 @@
       <h2 class="section-title">作品紹介</h2>
     </div>
     <div class="works-flex">
-      <?php the_post_thumbnail(array(700, 400)); ?>
-      <!-- <img src="img/works1-fv.png" alt="実績1" class="worksPage-image"> -->
+      <!-- <?php the_post_thumbnail(array(700, 400)); ?> -->
+      <img src="<?php echo get_template_directory_uri(); ?>/img/works1-fv.png" alt="実績1" class="worksPage-image" width="150" height="150">
       <p class="sub-title"><?php the_title(); ?></p>
       <dl class="works-summary">
         <dt class="works-heading">
