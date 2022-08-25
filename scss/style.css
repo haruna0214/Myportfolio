@@ -184,6 +184,7 @@ dt {
 @media screen and (max-width: 787px) {
   #open {
     font-size: 4rem;
+    cursor: pointer;
   }
 }
 @media screen and (max-width: 787px) {
