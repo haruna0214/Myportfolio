@@ -47,9 +47,11 @@
             </div> -->
             <!-- header 787px以下
         ハンバーガーメニュー 開く-->
-            <!-- <div class="sp-icon">
+            <div class="sp-icon">
                 <span class="material-icons" id="open">menu</span>
-            </div> -->
+            </div>
+
+            <!-- メニュー機能を呼び出す -->
             <?php
             wp_nav_menu(
                 array(
@@ -63,28 +65,28 @@
     </header>
 
     <!-- ハンバーガーメニュー 閉じる -->
-    <!-- <div class="overlay">
+    <div class="overlay">
         <span class="material-icons" id="close">close</span>
         <!-- ハンバーガーメニュー 内容 -->
-    <!-- <nav class="sp-menu">
-        <ul class="sp-nav">
-            <li class="sp-nav-list">
-                <a class="uLine" href="<?php echo esc_url(home_url('/about/')); ?>">
+        <nav class="sp-menu">
+            <ul class="sp-nav">
+                <li class="sp-nav-list">
+                    <a class="uLine" href="<?php echo esc_url(home_url('/about/')); ?>">
                     <span class=" uLine-center">私について</span>
-                </a>
-            </li>
-            <li class="sp-nav-list">
-                <a class="uLine" href="<?php echo esc_url(home_url('/works/')); ?>"">
+                    </a>
+                </li>
+                <li class="sp-nav-list">
+                    <a class="uLine" href="<?php echo esc_url(home_url('/works/')); ?>"">
                     <span class=" uLine-center">制作実績</span>
-                </a>
-            </li>
-            <li class="sp-nav-list">
-                <a class="uLine" href="#contact">
+                    </a>
+                </li>
+                <li class="sp-nav-list">
+                    <a class="uLine" href="#contact">
                     <span class=" uLine-center">お問い合わせ</span>
-                </a>
-            </li>
-        </ul>
-    </nav> -->
-    <!-- </div> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
     <!-- header 終わり-->
