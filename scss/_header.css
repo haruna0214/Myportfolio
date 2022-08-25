@@ -37,6 +37,12 @@ header {
   justify-content: center;
 }
 
+@media screen and (max-width: 787px) {
+  .nav-lists {
+    display: none;
+  }
+}
+
 .menu-item {
   padding-left: 40px;
 }
