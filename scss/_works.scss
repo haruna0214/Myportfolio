@@ -65,7 +65,12 @@
 }
 
 figure img {
-  width: 100%;
+  width: 400px;
+  height: 350px;
+  @media screen and (max-width: 787px) {
+
+  }
+
 }
 
 figcaption.hover-mask {
