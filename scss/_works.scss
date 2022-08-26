@@ -32,7 +32,6 @@
     margin-bottom: 40px;
   }
 }
-
 .works-text dl {
   margin: 4%;
   line-height: 24px;
@@ -68,9 +67,11 @@ figure img {
   width: 400px;
   height: 350px;
   @media screen and (max-width: 787px) {
-
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
   }
-
 }
 
 figcaption.hover-mask {
@@ -107,7 +108,6 @@ figcaption.hover-mask {
   margin-bottom: 120px;
   @media screen and (max-width: 787px) {
     padding-top: 100px;
-    // max-width: 600px;
     margin: 0 auto;
     width: 100%;
   }

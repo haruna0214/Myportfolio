@@ -806,6 +806,15 @@ figure img {
   width: 400px;
   height: 350px;
 }
+@media screen and (max-width: 787px) {
+  figure img {
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 figcaption.hover-mask {
   width: 100%;
   height: 100%;
