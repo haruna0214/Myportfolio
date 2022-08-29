@@ -19,8 +19,10 @@
         </div>
         <div class="aboutme-content">
             <div class="aboutme-left">
-                <p class="name">田中 晴菜（たなか はるな）</p>
-                <p class="remarks">はじめまして。未経験から挑戦し、<br>サイト制作を学んでいる田中晴菜と申します。<br>
+                <p class="name">Haruna Tanaka</p>
+                <p class="remarks">はじめまして。
+                    前職で、ホームページの改修相談する中で、自分でできることがないか探し始めたのをきっかけに、Web制作に惹かれ学習スタート。<br>
+                    未経験からジョブチェンジするため、
                     お客様の抱える問題/課題について、前職の顧客の課題解決で身につけた経験を生かし、お客様の要望を汲み取りながら
                     一緒に作品を生み出していきたいです。</p>
                 <div class="btn">
