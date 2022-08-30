@@ -45,15 +45,13 @@ header {
 .menu-item {
   padding-left: 40px;
 }
-
-.uLine {
-  text-decoration: none;
-}
-
-.uLine-center {
+.menu-item a {
   position: relative;
 }
-.uLine-center::after {
+.menu-item a:hover::after {
+  width: 100%;
+}
+.menu-item a::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -65,8 +63,8 @@ header {
   transition: all 0.5s;
 }
 
-.uLine:hover .uLine-center:after {
-  width: 100%;
+.uLine {
+  text-decoration: none;
 }
 
 .sp-icon {
