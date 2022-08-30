@@ -220,9 +220,9 @@ dd.works-text {
 }
 
 .left-pc img {
+  width: 100%;
   box-shadow: 4px 8px 9px #9a9696;
   @media screen and (max-width: 787px) {
-    width: 100%;
     max-width: 650px;
     margin: 0 auto 40px;
   }
@@ -241,9 +241,9 @@ dd.works-text {
 }
 
 .right-sp img {
+  width: 100%;
   box-shadow: 4px 8px 9px #9a9696;
   @media screen and (max-width: 787px) {
-    width: 100%;
     max-width: 180px;
     margin: 0 auto 40px;
   }
