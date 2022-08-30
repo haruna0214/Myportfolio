@@ -979,10 +979,14 @@ dd.works-text a {
 }
 
 .left-pc img {
-  width: 100%;
   box-shadow: 4px 8px 9px #9a9696;
-  max-width: 650px;
-  margin: 0 auto 40px;
+}
+@media screen and (max-width: 787px) {
+  .left-pc img {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto 40px;
+  }
 }
 
 .right-sp {
