@@ -59,7 +59,6 @@
             $image = get_field('acf_pc');
             $src = $image['url'];
             $width = $image['width'];
-            $height = $image['height'];
             ?>
 
             <img src="<?php echo $src; ?>" width="<?php echo $width; ?>" alt="Webサイト制作PC版">
