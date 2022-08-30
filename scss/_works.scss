@@ -208,10 +208,9 @@ dd.works-text {
 }
 
 .left-pc {
-  width: 65%;
+  width: 50%;
   @media screen and (max-width: 787px) {
     width: 100%;
-    // max-width: 420px;
     margin: 0 auto 40px;
   }
   p {
@@ -221,8 +220,10 @@ dd.works-text {
 }
 
 .left-pc img {
+  width: 100%;
   box-shadow: 4px 8px 9px #9a9696;
-  max-height: 2200px;
+  max-width: 650px;
+  margin: 0 auto 40px;
 }
 
 .right-sp {
