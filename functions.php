@@ -53,4 +53,5 @@ function theme_setup() {
     );
 }
 add_action('after_setup_theme', 'theme_setup');
+//アイキャッチ画像を有効化
 add_theme_support('post-thumbnails');
