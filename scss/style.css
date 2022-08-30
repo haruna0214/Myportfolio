@@ -990,7 +990,7 @@ dd.works-text a {
 }
 
 .right-sp {
-  width: 30%;
+  width: 10%;
 }
 @media screen and (max-width: 787px) {
   .right-sp {
@@ -1005,7 +1005,13 @@ dd.works-text a {
 
 .right-sp img {
   box-shadow: 4px 8px 9px #9a9696;
-  max-height: 2200px;
+}
+@media screen and (max-width: 787px) {
+  .right-sp img {
+    width: 100%;
+    max-width: 180px;
+    margin: 0 auto 40px;
+  }
 }
 
 /* footer */
