@@ -56,20 +56,25 @@
           <p>PC</p>
           <div class="list">
             <?php
-            $pic = get_field('acf_pc');
-            $pic_url = $pic['sizes']['medium'];
+            $image = get_field('acf_pc');
+            $src = $image['url'];
+            $width = $image['width'];
+            $height = $image['height'];
             ?>
-            <img src="<?php echo $pic_url; ?>" alt="Webサイト制作PC版">
+
+            <img src="<?php echo $src; ?>" width="<?php echo $width; ?>" alt="Webサイト制作PC版">
           </div>
         </div>
         <div class="right-sp">
           <p>SP</p>
           <div class="list">
             <?php
-            $pic = get_field('acf_sp');
-            $pic_url = $pic['sizes']['medium'];
+            $sp_image = get_field('acf_sp');
+            $sp_src = $sp_image['url'];
+            $sp_width = $sp_image['width'];
             ?>
-            <img src="<?php echo $pic_url; ?>" alt="Webサイト制作SP版">
+
+            <img src="<?php echo $sp_src; ?>" width="<?php echo $sp_width; ?>" alt="Webサイト制作SP版">
           </div>
         </div>
       </div>
