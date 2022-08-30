@@ -931,7 +931,7 @@ dd.works-text a {
   }
 }
 
-.item-btn {
+.works-btn a {
   padding: 10px 40px;
   border-radius: 0.4rem;
   margin: 0 40px;
@@ -940,12 +940,12 @@ dd.works-text a {
   background-color: #ffffff;
 }
 @media screen and (max-width: 787px) {
-  .item-btn {
+  .works-btn a {
     padding: 5px 20px;
     margin: 0;
   }
 }
-.item-btn:hover {
+.works-btn a:hover {
   background-color: #856f66;
   color: #ffffff;
 }
