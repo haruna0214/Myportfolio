@@ -85,3 +85,23 @@ header {
 .overlay {
   opacity: 0;
 }
+
+.uLine-center {
+  position: relative;
+}
+
+.uLine-center::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -0.3rem;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: #c7bdb9;
+  transition: all 0.5s;
+}
+
+.uLine:hover .uLine-center:after {
+  width: 100%;
+}

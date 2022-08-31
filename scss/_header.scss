@@ -19,7 +19,7 @@ header {
 .logo img {
   width: 160px;
 }
-
+// PC版ナビメニュー
 .pc-nav {
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@ header {
   text-decoration: none;
 }
 
-
+// スマホ版ハンバーガーメニュー
 .sp-icon {
   opacity: 0;
   @media screen and (max-width:787px) {
@@ -76,4 +76,24 @@ header {
 
 .overlay {
   opacity: 0;
+}
+
+.uLine-center {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -0.3rem;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background: #c7bdb9;
+    transition: all 0.5s;
+  }
+}
+
+.uLine:hover .uLine-center:after {
+  width: 100%;
 }
