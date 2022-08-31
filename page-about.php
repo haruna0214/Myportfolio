@@ -41,11 +41,11 @@
     <dl class="career-item">
       <dt class="Inner-left">2022年</dt>
       <dd class="Inner-right">ITの基礎知識を身につけるため、ITパスポート資格取得<br>
-        その後、Webデザインに必要な基本スキル(HTML CSS JavaScript PHP Figma Canva等)を学びました。</dd>
+        その後、Webデザインに必要な基本スキル(HTML CSS JavaScript PHP Figma WordPress等)を学びました。</dd>
     </dl>
     <dl class="career-item">
       <dt class="Inner-left">現在</dt>
-      <dd class="Inner-right">転職活動中です。<br>お客さま視点を大切にしたホームページを制作し、コツコツ学び続けて実業務で活かしていきます。</dd>
+      <dd class="Inner-right">転職活動中です。<br>お客様視点を大切にしたホームページを制作し、コツコツ学び続けて実業務で活かしていきます。</dd>
     </dl>
   </div>
 </section>
