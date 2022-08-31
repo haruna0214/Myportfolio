@@ -9,7 +9,8 @@
       <h2 class="section-title">作品紹介</h2>
     </div>
     <div class="works-flex">
-      <?php if (get_field('acf_fv')) : ?> <!-- 画像の値を取得 -->
+      <?php if (get_field('acf_fv')) : ?>
+        <!-- 画像の値を取得 -->
         <img src="<?php the_field('acf_fv'); ?>" /> <!-- 取得した画像を表示 -->
       <?php endif; ?>
       <p class="sub-title"><?php the_title(); ?></p>
@@ -34,7 +35,7 @@
           <span class="material-symbols-outlined">computer サイト</span>
         </dt>
         <dd class="works-text">
-          <a href="https://haruna0214.github.io/74_CafeSite/" target="_blank" rel="noopener"><?php the_field('acf_site'); ?></a>
+          <a href="<?php the_field('acf_site'); ?>" target="_blank" rel="noopener"><?php the_field('acf_site'); ?></a>
         </dd>
 
       </dl>
