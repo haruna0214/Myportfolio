@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="aboutme-right">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/aboutmeXXX.png" alt="顔写真1">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/Noimage-fv.jpg" alt="プロフィール画像準備中">
             </div>
         </div>
     </div>
