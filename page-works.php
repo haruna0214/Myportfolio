@@ -54,7 +54,7 @@
 <!-- 実績一覧 -->
 <!-- main -->
 
-<!--  section お問い合わせ-->
+<!--  section お問い合わせ部分の読み込み -->
 <?php get_template_part("template-parts/contact"); ?>
 <!--  section お問い合わせ-->
 
