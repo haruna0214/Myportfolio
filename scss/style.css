@@ -648,7 +648,7 @@ textarea {
 }
 @media screen and (max-width: 787px) {
   .profile-flex {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 24px;
     gap: 40px;
   }

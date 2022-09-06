@@ -19,7 +19,7 @@
     margin: 0 auto;
     padding: 40px;
     @media screen and (max-width:787px) {
-      flex-direction: column;
+      flex-direction: column-reverse;
       padding: 24px;
       gap: 40px;
     }
