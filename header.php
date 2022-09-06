@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
     // ファビコン
-    <link rel="shortcut icon" href="<?php echo esc_url(get_theme_file_uri('img/favicon.ico')); ?>">
+    <link rel="shortcut icon" href="<?php echo esc_url(get_theme_file_uri('img/Portfolio Favicon.png')); ?>">
     <?php wp_head(); ?>
 </head>
 
