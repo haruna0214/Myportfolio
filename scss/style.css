@@ -1049,12 +1049,8 @@ footer li {
   cursor: pointer;
 }
 
-/*==============================================================
-  # レスポンシブ 787pxまでの設定
-==============================================================*/
 @media screen and (max-width: 787px) {
-  /* footer */
-  footer li {
+  .menu-item {
     padding: 0 20px;
     font-size: 12px;
   }
