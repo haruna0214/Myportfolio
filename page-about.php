@@ -15,7 +15,7 @@
       </p>
     </div>
     <div class="profile-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/Noimage-fv.jpg" alt="プロフィール画像準備中" class="profile-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/about_fv.png" alt="プロフィール画像" class="profile-img">
     </div>
   </div>
 </section>
