@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="aboutme-right">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/top_about_fv.png" alt="プロフィール画像">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/top_about_fv.png" alt="プロフィール画像" width="300">
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
         <ul class="slider-lists">
             <li class="slider-list">
                 <a href="<?php echo home_url('/works1'); ?>" class="slider-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works01.png" alt="スライド画像1">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works01.png" alt="スライド画像1" width="1080">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
                         <p class="works-menu-viewmore">さらに詳しく</p>
@@ -55,7 +55,7 @@
             </li>
             <li class="slider-list">
                 <a href="<?php echo home_url('/works2'); ?>" class="slider-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works02.png" alt="スライド画像2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works02.png" alt="スライド画像2" width="1080">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
                         <p class="works-menu-viewmore">さらに詳しく</p>
@@ -64,7 +64,7 @@
             </li>
             <li class="slider-list">
                 <a href="<?php echo home_url('/works3'); ?>" class="slider-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works03.png" alt="スライド画像3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works03.png" alt="スライド画像3" width="1080">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
                         <p class="works-menu-viewmore">さらに詳しく</p>
@@ -73,7 +73,7 @@
             </li>
             <li class="slider-list">
                 <a href="<?php echo home_url('/works4'); ?>" class="slider-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works04.png" alt="スライド画像4">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works04.png" alt="スライド画像4" width="1080">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
                         <p class="works-menu-viewmore">さらに詳しく</p>
@@ -82,7 +82,7 @@
             </li>
             <li class="slider-list">
                 <a href="<?php echo home_url('/works5'); ?>" class="slider-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works05.png" alt="スライド画像5">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_slider_works05.png" alt="スライド画像5" width="1080">
                     <div class="slider-hov">
                         <p class="works-menu">Web design</p>
                         <p class="works-menu-viewmore">さらに詳しく</p>
@@ -102,7 +102,7 @@
     <div class="service-content">
         <div class="service-item">
             <div class="service-img">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/service1.png" alt="イラスト画像1">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/service1.png" alt="Webサイトのコーディング" width="280">
             </div>
             <div class="service-text">
                 <h3>Webサイトのコーディング</h3>
@@ -113,7 +113,7 @@
         </div>
         <div class="service-item">
             <div class="service-img">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/service2.png" alt="イラスト画像2">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/service2.png" alt="Webサイトに動きをつける" width="280">
             </div>
             <div class="service-text">
                 <h3>Webサイトに動きをつける</h3>
@@ -122,7 +122,7 @@
         </div>
         <div class="service-item">
             <div class="service-img">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/service3.png" alt="イラスト画像3">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/service3.png" alt="WordPressでWebサイト制作" width="280">
             </div>
             <div class="service-text">
                 <h3>WordPressでWebサイト制作</h3>
