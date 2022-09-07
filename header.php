@@ -23,7 +23,7 @@
     <!-- header 始まり-->
     <header>
         <div class="nav-box wrapper">
-            <h1 class="logo"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo"></a></h1>
+            <h1 class="logo"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="ロゴ" width="160"></a></h1>
             <!-- <div class="pc-nav">
                 <nav>
                     <ul class="nav-lists">

@@ -5,7 +5,7 @@
 <!-- section fv -->
 <section class="fv wrapper">
     <div class="fv-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/fv.jpg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/fv.jpg" alt="メインビジュアル" width="850">
     </div>
 </section>
 <!-- section fv -->
