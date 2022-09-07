@@ -15,7 +15,7 @@
       </p>
     </div>
     <div class="profile-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/about_fv.png" alt="プロフィール画像" class="profile-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/about_fv.png" alt="プロフィール画像" class="profile-img" width="300">
     </div>
   </div>
 </section>
@@ -59,7 +59,7 @@
     </div>
     <div class="heart-item">
       <div class="heart-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/heart.png" alt="heartdesign">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/heart.png" alt="制作への思い" width="320">
       </div>
       <div class="heart-text">
         <p>お客様の思い(課題)を共通理解し、認識齟齬のないよう、しっかりとコミュニケーションをとらせていただき、お客様にとって効果的なWEBサイトをご提案・制作いたします。
