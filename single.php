@@ -9,8 +9,10 @@
       <h2 class="section-title">作品紹介</h2>
     </div>
     <div class="works-flex">
-      <?php if (get_field('acf_fv')) : ?> <!-- 画像の値を取得 -->
-        <img src="<?php the_field('acf_fv'); ?>" /> <!-- 取得した画像を表示 -->
+      <!-- 画像の値を取得 -->
+      <?php if (get_field('acf_fv')) : ?>
+        <!-- 取得した画像を表示 -->
+        <img src="<?php the_field('acf_fv'); ?>" alt="作品画像" width="1080">
       <?php endif; ?>
       <p class="sub-title"><?php the_title(); ?></p>
       <dl class="works-summary">
@@ -62,7 +64,7 @@
             $width = $image['width'];
             ?>
 
-            <img src="<?php echo $src; ?>" width="<?php echo $width; ?>" alt="Webサイト制作PC版">
+            <img src="<?php echo $src; ?>" width="<?php echo $width; ?>" alt="Webサイト制作PC版" width="2570">
           </div>
         </div>
         <div class="right-sp">
@@ -74,7 +76,7 @@
             $sp_width = $sp_image['width'];
             ?>
 
-            <img src="<?php echo $sp_src; ?>" width="<?php echo $sp_width; ?>" alt="Webサイト制作SP版">
+            <img src="<?php echo $sp_src; ?>" width="<?php echo $sp_width; ?>" alt="Webサイト制作SP版" width="760">
           </div>
         </div>
       </div>
