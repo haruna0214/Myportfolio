@@ -117,7 +117,7 @@
             </div>
             <div class="service-text">
                 <h3>Webサイトに動きをつける</h3>
-                <p>現時点では簡単な動きのみですが、JavaScriptのjQueryを使い、<br>数秒ごとに画像が切り替わる動きなど実装することができます</p>
+                <p>現時点では簡単な動きのみですが、JavaScriptのjQueryを使い、<br>数秒ごとに画像が切り替わる動きなど実装することができます。</p>
             </div>
         </div>
         <div class="service-item">
@@ -126,7 +126,7 @@
             </div>
             <div class="service-text">
                 <h3>WordPressでWebサイト制作</h3>
-                <p>オリジナルサイトをWordpressに構築できます。投稿を指定されたカテゴリーに分けたり、お問い合わせ機能を実装することができます</p>
+                <p>オリジナルサイトをWordpressに構築できます。プラグインの導入やカスタムフィールドを使って、より自由にWordPressをカスタマイズすることができます。</p>
             </div>
         </div>
     </div>
