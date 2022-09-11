@@ -36,7 +36,7 @@
     <dl class="career-item">
       <dt class="Inner-left">2018年</dt>
       <dd class="Inner-right">大学卒業後、約4年間コールセンター・事務等のクライアント現場で、<br>お客様対応に加え、業務改善・課題解決をしていました。<br>
-        その中で、サイトの利便性上げるために、システム改修ではなく<br>運用のみでユーザビリティを改善する提案をしていく内に、Webデザインに興味をもちました。</dd>
+        その中で、サイトの利便性上げるために、システム改修ではなく<br>運用のみでユーザビリティを改善提案をしていく内に、Webデザインに興味をもちました。</dd>
     </dl>
     <dl class="career-item">
       <dt class="Inner-left">2022年</dt>
@@ -45,7 +45,7 @@
     </dl>
     <dl class="career-item">
       <dt class="Inner-left">現在</dt>
-      <dd class="Inner-right">転職活動中です。<br>お客様視点を大切にしたホームページを制作し、コツコツ学び続けて実業務で活かしていきたいと思います。</dd>
+      <dd class="Inner-right">転職活動中です。<br>スキルを上げるためにインプットとアウトプットを繰り返し、実務に活かせるように積極的に学びます。</dd>
     </dl>
   </div>
 </section>
