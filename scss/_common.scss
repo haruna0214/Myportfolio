@@ -166,9 +166,9 @@ dt {
   line-height: 1.5;
   padding-bottom: 40px;
 
-  span {
-    color: red;
-  }
+  // span {
+  //   color: red;
+  // }
 }
 
 .contact-contents {
@@ -185,10 +185,14 @@ dt {
   position: relative;
   padding: 40px 0;
 
-  span {
-    position: absolute;
-    color: red;
+  .cf7_req {
     display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: red;
+    border-radius: 20%;
+    padding: 2px 4px;
+    margin-left: 8px;
   }
 }
 
@@ -218,6 +222,7 @@ textarea {
   border-radius: 0.4rem;
   text-align: center;
   cursor: pointer;
+  padding: 12px;
 
   input {
     border: none;
