@@ -769,7 +769,6 @@ textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  padding: 0 80px;
 }
 @media screen and (max-width: 787px) {
   .works-items {
@@ -819,8 +818,10 @@ textarea {
 }
 
 figure img {
-  width: 400px;
+  width: 100%;
   height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media screen and (max-width: 787px) {
   figure img {
