@@ -62,3 +62,10 @@ add_theme_support('post-thumbnails');
 //     if (is_page('index')) return;
 //     wp_deregister_script('google-recaptcha');
 // }, 100, 0);
+
+//サンクスページの設定
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+location = 'https://ht-portfolio.com/';
+}, false );
+</script>
