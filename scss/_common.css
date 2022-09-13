@@ -244,7 +244,7 @@ textarea {
   margin: 0 auto;
   background-color: #856f66;
   color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 0.4rem;
   text-align: center;
   cursor: pointer;
@@ -260,6 +260,7 @@ textarea {
 .form-btn input {
   display: block;
   margin: 0 auto;
+  letter-spacing: 0.2em;
 }
 
 /* トップへ戻る */

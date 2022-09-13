@@ -165,10 +165,6 @@ dt {
   letter-spacing: 0.08em;
   line-height: 1.5;
   padding-bottom: 40px;
-
-  // span {
-  //   color: red;
-  // }
 }
 
 .contact-contents {
@@ -228,7 +224,7 @@ textarea {
   margin: 0 auto;
   background-color: #856f66;
   color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 0.4rem;
   text-align: center;
   cursor: pointer;
@@ -240,6 +236,7 @@ textarea {
   input {
     display: block;
     margin: 0 auto;
+    letter-spacing: 0.2em;
   }
 }
 
