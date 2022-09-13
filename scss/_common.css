@@ -250,6 +250,13 @@ textarea {
   cursor: pointer;
 }
 
+@media screen and (max-width: 787px) {
+  .form-btn {
+    height: 40px;
+    padding: 2px;
+  }
+}
+
 .form-btn input {
   display: block;
   margin: 0 auto;
