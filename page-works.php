@@ -62,7 +62,7 @@
   <div class="contact-contents">
     <p class="contact-text">ご質問などありましたら下記よりお気軽にお問い合わせください</p>
     <!--  section お問い合わせ Contact Form7直接埋め込み -->
-    <?php echo do_shortcode('[contact-form-7 id="217" title="お問い合わせフォーム"]'); ?>
+    <?php echo do_shortcode('[contact-form-7 id="212" title="お問い合わせフォーム"]'); ?>
   </div>
 </section>
 <!--  section お問い合わせ-->
