@@ -208,13 +208,8 @@ dt {
   margin-left: 8px;
 }
 
-.category {
-  display: flex;
-  width: 100%;
-  border-bottom: 1px solid #9e9e9e;
-}
-
-input {
+.wpcf7-form-control-wrap {
+  position: relative;
   display: flex;
   width: 100%;
   border-bottom: 1px solid #9e9e9e;
@@ -231,20 +226,20 @@ textarea {
 }
 
 .form-btn {
-  width: 150px;
-  height: 50px;
+  width: 160px;
+  height: 60px;
   margin: 0 auto;
   background-color: #856f66;
   color: #ffffff;
+  padding: 20px;
   border-radius: 0.4rem;
   text-align: center;
   cursor: pointer;
-  padding: 12px;
 }
 
 .form-btn input {
-  border: none;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 
 /* トップへ戻る */

@@ -196,18 +196,24 @@ dt {
     margin-left: 8px;
   }
 }
-.category {
-  display: flex;
-  width: 100%;
-  border-bottom: 1px solid #9e9e9e;
+// .category {
+//   display: flex;
+//   width: 100%;
+//   border-bottom: 1px solid #9e9e9e;
+// }
+.wpcf7-form-control-wrap {
+    position: relative;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #9e9e9e;
 }
 
-input {
-  display: flex;
-  // height: 48px;
-  width: 100%;
-  border-bottom: 1px solid #9e9e9e;
-}
+// input {
+//   display: flex;
+//   // height: 48px;
+//   width: 100%;
+//   border-bottom: 1px solid #9e9e9e;
+// }
 
 textarea {
   margin-top: 4px;
@@ -220,19 +226,19 @@ textarea {
 }
 
 .form-btn {
-  width: 150px;
-  height: 50px;
+  width: 160px;
+  height: 60px;
   margin: 0 auto;
   background-color: #856f66;
   color: #ffffff;
+  padding: 20px;
   border-radius: 0.4rem;
   text-align: center;
   cursor: pointer;
-  padding: 12px;
 
   input {
-    border: none;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
   }
 }
 
