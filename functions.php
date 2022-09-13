@@ -55,3 +55,10 @@ function theme_setup() {
 add_action('after_setup_theme', 'theme_setup');
 //アイキャッチ画像を有効化
 add_theme_support('post-thumbnails');
+
+// reCAPTCHAのロゴをフォームのあるページにだけ表示する
+// add_theme_support('post-thumbnails');
+// add_action('wp_enqueue_scripts', function () {
+//     if (is_page('index')) return;
+//     wp_deregister_script('google-recaptcha');
+// }, 100, 0);
