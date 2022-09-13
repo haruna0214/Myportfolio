@@ -72,8 +72,17 @@
 <!-- section 制作への思い -->
 <!-- main -->
 
-<!--  section お問い合わせ部分の読み込み -->
-<?php get_template_part("template-parts/contact"); ?>
+<!--  section お問い合わせ-->
+<section class="contact wrapper" id="contact">
+  <div class="section-title-center">
+    <h2 class="section-title">お問い合わせ</h2>
+  </div>
+  <div class="contact-contents">
+    <p class="contact-text">ご質問などありましたら下記よりお気軽にお問い合わせください</p>
+    <!--  section お問い合わせ Contact Form7直接埋め込み -->
+    <?php echo do_shortcode('[contact-form-7 id="217" title="お問い合わせフォーム"]'); ?>
+  </div>
+</section>
 <!--  section お問い合わせ-->
 
 <!-- 上に戻るボタン -->

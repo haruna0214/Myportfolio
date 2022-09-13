@@ -133,6 +133,7 @@
 </section>
 <!--  section できること-->
 
+<!--  section お問い合わせ-->
 <section class="contact wrapper" id="contact">
     <div class="section-title-center">
         <h2 class="section-title">お問い合わせ</h2>
