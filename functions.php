@@ -56,12 +56,20 @@ add_action('after_setup_theme', 'theme_setup');
 //アイキャッチ画像を有効化
 add_theme_support('post-thumbnails');
 
-// reCAPTCHAのロゴをフォームのあるページにだけ表示する
-// add_theme_support('post-thumbnails');
-// add_action('wp_enqueue_scripts', function () {
-//     if (is_page('index')) return;
-//     wp_deregister_script('google-recaptcha');
-// }, 100, 0);
 
-//サンクスページの設定
-
+// Contact Form7の送信ボタンをクリックした後の遷移先設定
+add_action('wp_footer', 'add_origin_thanks_page');
+function add_origin_thanks_page()
+{
+    $thanks = home_url('/thanks/');
+    echo <<< EOC
+     <script>
+       var thanksPage = {
+         フォームID: '{$thanks}',
+       };
+     document.addEventListener( 'wpcf7mailsent', function( event ) {
+       location = thanksPage[event.detail;
+     }, false );
+     </script>
+   EOC;
+}
