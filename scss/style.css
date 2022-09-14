@@ -370,21 +370,22 @@ textarea {
   line-height: 30px;
 }
 
-h3 .thanks-back {
+.thanks-back {
   margin: 0 auto;
-  width: 50%;
   font-size: 2rem;
   text-align: center;
-  word-break: break-all;
-  color: #856f66;
-  background-color: #F1F0EA;
   margin-top: 48px;
 }
 @media screen and (max-width: 787px) {
-  h3 .thanks-back {
-    width: 100%;
+  .thanks-back {
     margin-top: 24px;
   }
+}
+
+.thanks-back a {
+  word-break: break-all;
+  color: #856f66;
+  background-color: #F1F0EA;
 }
 
 /* トップへ戻る */

@@ -259,19 +259,19 @@ textarea {
       line-height: 30px;
     }
   }
-  h3 .thanks-back {
+  .thanks-back {
     margin: 0 auto;
-    width: 50%;
     font-size: 2.0rem;
     text-align: center;
+    margin-top: 48px;
+    @media screen and (max-width: 787px) {
+      margin-top: 24px;
+    }
+  }
+  .thanks-back a {
     word-break: break-all;
     color: #856f66;
     background-color: #F1F0EA;
-    margin-top: 48px;
-    @media screen and (max-width: 787px) {
-      width: 100%;
-      margin-top: 24px;
-    }
   }
 
 
@@ -283,9 +283,6 @@ textarea {
   background-color: #775f55;
   border-radius: 50%;
   transition: all 0.3s;
-  // @media screen and (max-width:787px) {
-  //   right: 20px;
-  // }
 }
 .page-top a {
   position: relative;
