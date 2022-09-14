@@ -263,6 +263,31 @@ textarea {
   letter-spacing: 0.2em;
 }
 
+/* お問い合わせフォームの送信ボタンをクリックした後のスタイル */
+@media screen and (max-width: 787px) {
+  .thanks {
+    padding-top: 100px;
+  }
+}
+
+.thanks-text {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 787px) {
+  .thanks-text {
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+.thanks-text p {
+  letter-spacing: 0.1em;
+  line-height: 30px;
+}
+
 /* トップへ戻る */
 .page-top {
   position: fixed;
