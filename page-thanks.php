@@ -4,13 +4,17 @@ Template Name: お問い合わせ(送信完了)
 */
 get_header();
 ?>
-<main class="main">
-    <h1>送信完了のお知らせ</h1>
-    <p>
-        <!-- wp:paragraph -->
-    <p>Haruna | Portfolio へお問い合わせいただき誠にありがとうございます。<br>
-    ご入力いただきました情報を送信いたしましたのでお知らせいたします。</p>
-</main>
+<section class="thanks">
+    <div class="wrapper">
+        <div class="section-title-center">
+            <h2 class="section-title">送信完了のお知らせ</h2>
+        </div>
+        <div class="thanks-text">
+            <p>Haruna | Portfolio へお問い合わせいただき、誠にありがとうございます。</p>
+            <p>ご入力いただいたメールアドレス宛に確認メールをお送りしましたのでお知らせいたします。</p>
+        </div>
+    </div>
+</section>
 <?php
 get_footer();
 ?>
