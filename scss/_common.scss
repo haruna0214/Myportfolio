@@ -259,11 +259,12 @@ textarea {
       line-height: 30px;
     }
   }
-  .thanks-back {
+  h3 .thanks-back {
     margin: 0 auto;
     width: 50%;
     font-size: 2.0rem;
     text-align: center;
+    word-break: break-all;
     color: #856f66;
     background-color: #F1F0EA;
     margin-top: 48px;
