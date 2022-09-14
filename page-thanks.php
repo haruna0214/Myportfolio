@@ -12,6 +12,7 @@ get_header();
         <div class="thanks-text">
             <p>Haruna | Portfolio へお問い合わせいただき、誠にありがとうございます。</p>
             <p>ご入力いただいたメールアドレス宛に確認メールをお送りしましたのでお知らせいたします。</p>
+            <h3 class="thanks-back"><a href="<?php echo esc_url(home_url('/')); ?>">トップページへ戻る</a></h3>
         </div>
     </div>
 </section>
