@@ -58,18 +58,13 @@ add_theme_support('post-thumbnails');
 
 
 // Contact Form7の送信ボタンをクリックした後の遷移先設定
-add_action('wp_footer', 'add_origin_thanks_page');
-function add_origin_thanks_page()
-{
-    $thanks = home_url('/thanks/');
+add_action( 'wp_footer', 'add_origin_thanks_page' );
+function add_origin_thanks_page() {
     echo <<< EOC
-     <script>
-       var thanksPage = {
-         フォームID: '{$thanks}',
-       };
-     document.addEventListener( 'wpcf7mailsent', function( event ) {
-       location = thanksPage[event.detail;
-     }, false );
-     </script>
-   EOC;
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = 'https://ht-portfolio.com/thanks/';
+}, false );
+</script>
+EOC;
 }
