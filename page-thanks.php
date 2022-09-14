@@ -1,7 +1,7 @@
+<?php
 /*
 Template Name: お問い合わせ(送信完了)
 */
-<?php
 get_header();
 ?>
 <main class="main">
