@@ -45,7 +45,7 @@
     </dl>
     <dl class="career-item">
       <dt class="Inner-left">現在</dt>
-      <dd class="Inner-right">転職活動中です。<br>スキルを上げるためにインプットとアウトプットを繰り返し、実務に活かせるように積極的に学びます。</dd>
+      <dd class="Inner-right">転職活動中です。<br>技術を上げるためにインプットとアウトプットを繰り返し、実務に活かせるよう積極的に学んでいます。</dd>
     </dl>
   </div>
 </section>
