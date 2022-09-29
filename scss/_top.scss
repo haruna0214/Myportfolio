@@ -26,6 +26,7 @@
 .aboutme-content {
   display: flex;
   justify-content: center;
+  align-items: center;
   @media screen and (max-width: 787px) {
     flex-direction: column-reverse;
   }
@@ -86,14 +87,6 @@
 @media screen and (max-width: 787px) {
   .aboutme-right {
     margin: 0 auto;
-  }
-}
-.aboutme-right img {
-    width: 300px;
-    height: 300px;
-    @media screen and (max-width: 787px) {
-      width: 250px;
-      height: 250px;
   }
 }
 

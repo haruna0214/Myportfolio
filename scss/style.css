@@ -456,6 +456,7 @@ textarea {
 .aboutme-content {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 787px) {
   .aboutme-content {
@@ -519,17 +520,6 @@ textarea {
     margin: 0 auto;
   }
 }
-.aboutme-right img {
-  width: 300px;
-  height: 300px;
-}
-@media screen and (max-width: 787px) {
-  .aboutme-right img {
-    width: 250px;
-    height: 250px;
-  }
-}
-
 /* section 制作実績 */
 .works {
   margin-bottom: 120px;
